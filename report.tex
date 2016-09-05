@@ -1,0 +1,71 @@
+\documentclass{report}
+\usepackage[print,nopanel]{pdfscreen}
+%\begin{print}
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{titletoc}% http://ctan.org/pkg/titletoc
+%\section{type}
+\usepackage{lastpage}
+%\usepackage{macro/macro}
+%\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+\usepackage{program}
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Glenn]{fncychap}
+\lhead{\large\bfseries}
+\usepackage[left=2.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
+\pagestyle{fancy}
+%\end{print}
+\margins{.5cm}{.5cm}{.5cm}{.5cm}
+
+\renewcommand{\encodingdefault}{T1}
+\usepackage{setspace}
+\linespread{1.5}
+\renewcommand{\rmdefault}{ptm}
+
+\screensize{8cm}{9cm}
+\overlay{overlay8.pdf}
+\usepackage{graphicx}
+
+\begin{document}
+\input{/home/amisha/gitt/6-weeks-report/input/titlepage.tex}
+
+
+\footskip 0.7cm
+\thispagestyle{empty} 
+\pagetitle
+\newpage
+\pagenumbering{Roman}
+\cfoot{\thepage}
+
+\input{/home/amisha/gitt/6-weeks-report/input/acknowledgement.tex}
+\newpage
+
+\input{/home/amisha/gitt/6-weeks-report/input/abstract.tex}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\cfoot{\thepage}
+
+\newpage
+\chapter{Introduction To Organisation}
+\input{/home/amisha/gitt/6-weeks-report/input/company.tex}
+\newpage
+\chapter{Requirement Analysis and System Specification}
+\input{input/feasibitystudy.tex}
+\input{input/Soft.tex}
+\input{input/design.tex}
+\input{input/techno-used.tex}
+\chapter{Experimental Results and Comparison}
+\input{input/Conclusion/results.tex}
+\chapter{Conclusion,Summary and Future Scope}
+\input{input/Conclusion/future.tex}
+\input{input/legacy.tex}
+\input{input/Conclusion/bibliography.tex}
+\end{document}
