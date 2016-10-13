@@ -1,0 +1,40 @@
+\section{Working with Experimental Server}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.3\textwidth]{input/images/ser.png}                   
+\caption{Server Communication}
+\hspace{-1.5em}
+\end{figure}
+I had also done the whole project on ubuntu experimental server and had also learnt about making your system a server.\\
+What is a Remote Server?\\
+In simple words its nothing much but a Computer that is not attached to a user’s keyboard but over which he or she has some degree of control (like can see data of that computer, can retrieve or send data etc.)\\
+For going deep you need to know about ssh (Secure Shell). I had  written about it in my old blogs. You can Google it too.\\
+I had done it using SSH. There are few terms related to this :\\
+\begin{itemize}
+\item SSH: It is a Secure Socket Shell, is a network protocol that provides administrators with a secure way to access a remote computer.
+\item MOSH: It is a software tool used to connect from a client computer to a server over the Internet, to run a remote terminal. 
+\item Tmux: tmux is basically a terminal multiplexer. It is used so that within
+one terminal window we can open multiple windows and split-views.
+\item OpenSSH: It is a freely available version of the Secure Shell (SSH) protocol family of tools for remotely controlling or transferring files between computers. Traditional tools used to accomplish this is telnet which is not much secure.
+\end{itemize}
+
+In Unix, you can use SCP (the scp command) to securely copy files and directories between remote hosts without starting an FTP session or logging into the remote systems explicitly. \\
+The scp command uses SSH to transfer data, so it requires a password.\\\\
+Some of the useful commands in this for checking errors or for other purposes are: \\
+\begin{itemize}
+\item ll: This command is used to list the detail information of files and folder of a current directory. 
+\item tail -f error.log: This is used for checking errors.
+\item sudo apt-get install openssh-server
+\item sudo vim /etc/ssh/sshdconfig \\
+(To edit this as per your preferences. But first take a backup of this file for later default configurations if needed.)
+\item sudo restart ssh \\
+(To check your ssh daemon is running or not.)
+\item ps -A | grep sshd \\
+(This command should produce a line like this:
+
+ some-number ? 00:00:00 sshd)
+\item ssh user@hostip \\
+(To enter into a remote server from some other system. )
+\end{itemize}
+
+ 
