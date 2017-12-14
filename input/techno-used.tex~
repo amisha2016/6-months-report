@@ -1,9 +1,9 @@
 
-\input {/home/amisha/gitt/6-weeks-report/input/tech/ubuntu.tex}
-\input {/home/amisha/gitt/6-weeks-report/input/tech/doxygen.tex}
+\input {input/tech/ubuntu.tex}
+\input {input/tech/doxygen.tex}
 
-\input {/home/amisha/gitt/6-weeks-report/input/tech/latex.tex}
-\input {/home/amisha/gitt/6-weeks-report/input/tech/git.tex}
-\input{/home/amisha/gitt/6-weeks-report/input/tech/osm.tex}
+\input {input/tech/latex.tex}
+\input {input/tech/git.tex}
+\input{input/tech/osm.tex}
 
 
