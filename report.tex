@@ -12,6 +12,7 @@
 \usepackage{verbatim}
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage[Glenn]{fncychap}
+
 \lhead{\large\bfseries}
 \usepackage[left=2.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
 \pagestyle{fancy}
@@ -68,8 +69,10 @@
 %\input{input/design.tex}
 %\chapter{Implementation}
 %\input{input/implement.tex}
+\newgeometry{textwidth=16cm,textheight=26cm,voffset=-2cm,bottom=0cm}
 \newpage
-\chapter{Introduction To Organisation}
+\chapter*{Introduction To Organisation}
+%\chapter{Introduction To Organisation}
 \input{input/company.tex}
 \newpage
 \chapter{Introduction to Project}
