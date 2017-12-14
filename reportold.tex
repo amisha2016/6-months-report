@@ -71,9 +71,20 @@
 %\input{input/implement.tex}
 %\newgeometry{textwidth=16cm,textheight=26cm,voffset=-2cm,bottom=0cm}
 \newpage
+%\newgeometry{textwidth=16cm,textheight=26cm,voffset=-2cm}
+\newgeometry{voffset=-1cm}
 \chapter{Introduction To Organisation}
 %\chapter{Introduction To Organisation}
+%\afterpage{\restoregeometry}
+%\markboth{}{}
+%\addcontentsline{chapter}
+% text
+%\restoregeometry
+
 \input{input/company.tex}
+%\afterpage{\restoregeometry}
+
+\restoregeometry
 \newpage
 \chapter{Introduction to Project}
 \input{input/feasibitystudy.tex}
