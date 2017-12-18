@@ -1,0 +1,12 @@
+\begin{figure}[ht]
+\centering \includegraphics[scale=1]{input/images/doxygen.jpeg}
+\caption{OPENSTREETMAP logo}
+\end{figure}
+\subsection*{OPENSTREETMAP}
+It is a collaborative project to create a free editable map of the world.
+Now ,before beginning to make your own tile server, let me explain you some termonologies.
+\subsection*{Benifit of Having your own tile server}
+Maybe you need to have access to you map even when your internet provider is down. Or when the power is off. Or both. It won’t take much for you to see the benefit of having your own piece of OpenStreetMap infrastructure
+Now it’s turn to install, setup and configure all the necessary software to operate your own tile server.
+These instructions build what OpenStreetMap calls a "tile server". That is, a computer that uses the OSM data set to create map images that are suitable for a web si
+

@@ -13,4 +13,71 @@ If user don't enter any input then it by default takes latitude and longitude 0 
 
 When we click on a link "Permalink" the current latitude and longitude become a default. On refreshing we get the same location.
 
+\begin{table}
+\caption{Unit testing}
+
+\begin{tabular}{|p{1cm}|p{2cm}|p{3cm}|p{2cm}|p{2cm}|p{3cm}|p{1.2cm}|}
+\hline
+Test Case ID & Test Case Name & Description & Pre-Condition
+ & Execution Step & Expected Result
+ & Status \\
+\hline \rule[-2ex]{0pt}{5.5ex}  1 &
+OSM tile server
+Test
+ &  OSM installation script run by the user will make the system OSM server.
+ & 1. Proper network connection	.\newline
+ 2. Minimum RAM space required is 2GB.
+&  Execute the script file install\_osm.sh.
+ & If localhost output map of the world then OSM server is installed.
+ &  passsed\\
+\hline \rule[-2ex]{0pt}{5.5ex}  2 &
+Database
+Test
+& 1.Dumping the raw data to database.\newline
+& 1. Proper database administration rights must be awarded.\newline
+ 2. The storage space must be sufficient.\newline
+ & 1. Give the correct path of the raw data file.\newline
+ 2. All core processers should be free for easy dump.\newline
+ & It would result in building 9-tables and time elapsed for completion of command.
+  & passsed\\
+\hline \rule[-2ex]{0pt}{5.5ex}  3 &
+Mod\_tile
+Test
+& Mod\_tile Installation server for slippymap to render.
+ & Proper internet connection.
+& Compile the mod\_tile.
+ & In case localhost/mod\_tiles outputs then mod\_tile server is installed.
+  & passsed\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\caption{Integration testing}
+
+\begin{tabular}{|p{1cm}|p{2cm}|p{3cm}|p{2cm}|p{2cm}|p{3cm}|p{1.2cm}|}
+\hline
+Test Case ID & Test Case Name & Description & Pre-Condition
+ & Execution Step & Expected Result
+ & Status \\ 
+\hline \rule[-2ex]{0pt}{5.5ex}  1 &
+Searching Places
+Test
+ &  Searching the name of place from database.
+ & 1. Database dump with tag as name .\newline
+ 2. Proper Internet connection.
+&  Write name of place in search button.
+ & Map move to the required place.
+ &  passsed\\
+\hline \rule[-2ex]{0pt}{5.5ex}  2 &
+Language ordering
+Test
+& Language of the map should be in order Punjabi followed by  Hindi then English.
+&  Carto style sheet should be correctly compiled.
+ &  Open slippymap in browser.\newline
+ & Map with customize language in a defined order.
+  & passsed\\
+\hline
+\end{tabular}
+\end{table}
 

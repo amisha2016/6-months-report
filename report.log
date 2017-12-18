@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.23)  12 OCT 2016 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.14)  19 DEC 2017 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -23,8 +23,7 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/share/texlive/texmf-dist/tex/latex/pdfscreen/pdfscreen.sty
+) (./pdfscreen.sty
 Package: pdfscreen 2000/07/07 v.1.5 screen PDF design (CVR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -35,15 +34,15 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -60,12 +59,12 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@width=\dimen104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 143.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -79,8 +78,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count91
 \calc@Cskip=\skip45
-)
-(/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+) (./comment.sty
 \CommentStream=\write3
 
 Excluding comment 'comment')
@@ -216,11 +214,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip46
 )
-Include comment 'print' Excluding comment 'screen'
-(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
-Package: fancybox 2010/05/15 1.4
-
-Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+Include comment 'print' Excluding comment 'screen' (./fancybox.sty
+Style option: `fancybox' v1.0 <93/02/10> (tvz)
 \@fancybox=\box26
 \shadowsize=\dimen111
 \@Sbox=\box27
@@ -234,84 +229,119 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \@PDFmpht=\dimen112
 \c@slide=\count105
 \c@slideoverlay=\count106
-) (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+) (./lipsum.sty
+Package: lipsum 2011/04/14 v1.2 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count107
-)
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titletoc.sty
+) (./titletoc.sty
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen113
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-
-! LaTeX Error: File `macro/macro.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
-\float@exts=\toks20
-\float@box=\box28
-\@float@everytoks=\toks21
-\@floatcapt=\box29
+\c@r@tfl@t=\count108
+\rotFPtop=\skip47
+\rotFPbot=\skip48
+\rot@float@box=\box28
+\rot@mess@toks=\toks20
 )
-(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen114
-\WF@size=\dimen115
-\c@WF@wrappedlines=\count109
-\WF@box=\box30
-\WF@everypar=\toks22
-Package: wrapfig 2003/01/31  v 3.6
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count109
+\lst@gtempboxa=\box29
+\lst@token=\toks21
+\lst@length=\count110
+\lst@currlwidth=\dimen114
+\lst@column=\count111
+\lst@pos=\count112
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count113
+\lst@lineno=\count114
+\lst@maxwidth=\dimen117
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count115
+\lst@skipnumbers=\count116
+\lst@framebox=\box30
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./lastpage.sty
+Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
+ (JPG)
+) (./macro/macro.sty) (./float.sty
+Package: float 1999/05/29 v1.2d Float enhancements (AL)
+\c@float@type=\count117
+\float@box=\box31
+\@floatcapt=\box32
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip47
-\f@ncyO@elh=\skip48
-\f@ncyO@erh=\skip49
-\f@ncyO@olh=\skip50
-\f@ncyO@orh=\skip51
-\f@ncyO@elf=\skip52
-\f@ncyO@erf=\skip53
-\f@ncyO@olf=\skip54
-\f@ncyO@orf=\skip55
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks23
-\verbatim@line=\toks24
+\every@verbatim=\toks22
+\verbatim@line=\toks23
 \verbatim@in@stream=\read2
-)
-(/usr/share/texlive/texmf-dist/tex/latex/fncychap/fncychap.sty
+) (./fncychap.sty
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip56
-\mylen=\skip57
-\myhi=\skip58
-\px=\skip59
-\py=\skip60
-\pyy=\skip61
-\pxx=\skip62
-\backskip=\skip63
+\RW=\skip58
+\mylen=\skip59
+\myhi=\skip60
+\px=\skip61
+\py=\skip62
+\pyy=\skip63
+\pxx=\skip64
+\backskip=\skip65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count110
-\Gm@cntv=\count111
-\c@Gm@tempcnt=\count112
-\Gm@bindingoffset=\dimen116
-\Gm@wd@mp=\dimen117
-\Gm@odd@mp=\dimen118
-\Gm@even@mp=\dimen119
-\Gm@layoutwidth=\dimen120
-\Gm@layoutheight=\dimen121
-\Gm@layouthoffset=\dimen122
-\Gm@layoutvoffset=\dimen123
-\Gm@dimlist=\toks25
+\Gm@cnth=\count118
+\Gm@cntv=\count119
+\c@Gm@tempcnt=\count120
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks24
 )
-Excluding 'screen' comment. (./report.aux
+Excluding 'screen' comment.
+
+LaTeX Warning: Unused global option(s):
+    [includeheadfoot].
+
+(./report.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -348,33 +378,33 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen124
-\scratchbox=\box31
-\nofMPsegments=\count114
-\nofMParguments=\count115
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen125
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count121
+\scratchdimen=\dimen126
+\scratchbox=\box33
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen127
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -390,8 +420,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 31.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -399,42 +429,40 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count119
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (./report.out) (./report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
 
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 31.
+\c@lstlisting=\count128
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.13188pt, 500.484pt, 42.67912pt)
-* v-part:(T,H,B)=(71.13188pt, 681.15898pt, 42.67912pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=500.484pt
-* \textheight=681.15898pt
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(71.13188pt, 483.69687pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=692.6886pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-38.1381pt
+* \topmargin=-29.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -447,26 +475,56 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./input/titlepage.tex) Excluding 'screen' comment.
-<input/images/gne.jpg, id=241, 160.6pt x 167.62625pt>
+(./input/titlepage.tex) <input/images/gne.jpg, id=245, 160.6pt x 167.62625pt>
 File: input/images/gne.jpg Graphic file (type jpg)
 
 <use input/images/gne.jpg>
-Package pdftex.def Info: input/images/gne.jpg used on input line 38.
-(pdftex.def)             Requested size: 150.14671pt x 156.7195pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+Package pdftex.def Info: input/images/gne.jpg used on input line 41.
+(pdftex.def)             Requested size: 145.11053pt x 151.46329pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./input/images/gne.jpg>]
-(./input/acknowledgement.tex
+(./input/abstract.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 16--48
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1] (./input/acknowledgement.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
@@ -489,38 +547,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 )
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1] (./input/abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 16--47
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -533,42 +560,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (./report.lof [5
-
-])
+[4] (./report.lof)
 \tf@lof=\write7
 \openout7 = `report.lof'.
 
+ [5
 
+] (./report.lot)
+\tf@lot=\write8
+\openout8 = `report.lot'.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+ [6
 
-[6]
+]
 Chapter 1.
-(/home/amisha/gitt/6-weeks-report/input/company.tex
-</home/amisha/gitt/6-weeks-report/input/images/gndec.jpg, id=411, 556.0775pt x 
-470.75874pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/gndec.jpg Graphic file (typ
-e jpg)
- <use /home/amisha/gitt/6-weeks-report/input/images/gndec.jpg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/gndec.jp
-g used on input line 4.
+(./input/company.tex
+<input/images/gndec.jpg, id=423, 556.0775pt x 470.75874pt>
+File: input/images/gndec.jpg Graphic file (type jpg)
+
+<use input/images/gndec.jpg>
+Package pdftex.def Info: input/images/gndec.jpg used on input line 3.
 (pdftex.def)             Requested size: 278.03807pt x 235.3788pt.
 
-Overfull \hbox (16.7199pt too wide) in paragraph at lines 7--24
-\OT1/cmr/m/n/12 the well main-tained sprawl-ing lawns all around. It has beau-t
-i-ful build-ing for Col-lege,Hostels,Swimming
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--24
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
 
  []
 
@@ -576,199 +610,145 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.24 \begin{itemize}
-                     [1
+l.35 
+      [1
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.24 \begin{itemize}
-                     </home/amisha/gitt/6-weeks-report/input/images/gndec.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+l.35 
+      <./input/images/gndec.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-
-</home/amisha/gitt/6-weeks-report/input/images/aw.jpg, id=416, 500.87125pt x 23
-2.87pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/aw.jpg Graphic file (type j
-pg)
- <use /home/amisha/gitt/6-weeks-report/input/images/aw.jpg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/aw.jpg u
-sed on input line 40.
-(pdftex.def)             Requested size: 350.60747pt x 163.00787pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.57 \item I
-            ndian Oil Corporation Ltd. </home/amisha/gitt/6-weeks-report/input/
-images/aw.jpg>])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
+[2]
 Chapter 2.
 (./input/feasibitystudy.tex
+<input/images/osm_building.png, id=433, 1302.8675pt x 665.48625pt>
+File: input/images/osm_building.png Graphic file (type png)
+
+<use input/images/osm_building.png>
+Package pdftex.def Info: input/images/osm_building.png used on input line 4.
+(pdftex.def)             Requested size: 403.88475pt x 206.2986pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [4
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+[3
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.33 
+      <./input/images/osm_building.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Overfull \hbox (0.19136pt too wide) in paragraph at lines 107--108
-[]\OT1/cmr/m/n/12 The project should be de-vel-oped such that the nec-es-sary f
-unc-tions and per-for-mance are achieved
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no † in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9])
+[8])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[9]
 Chapter 3.
 (./input/softreq.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -790,152 +770,190 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (./input/Soft.tex [11
+) (./input/Soft.tex [10
 
 ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]) (./input/design.tex
-</home/amisha/gitt/6-weeks-report/input/images/osmserv.png, id=504, 888.01762pt
- x 158.994pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osmserv.png Graphic file (t
-ype png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osmserv.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osmserv.
-png used on input line 6.
-(pdftex.def)             Requested size: 532.81468pt x 95.39713pt.
+[11]) (./input/design.tex
+<input/images/DFD_0.png, id=508, 473.77pt x 348.30125pt>
+File: input/images/DFD_0.png Graphic file (type png)
 
-Overfull \hbox (32.33069pt too wide) in paragraph at lines 6--7
+<use input/images/DFD_0.png>
+Package pdftex.def Info: input/images/DFD_0.png used on input line 5.
+(pdftex.def)             Requested size: 284.26419pt x 208.98236pt.
+
+<input/images/DFD_1.png, id=509, 720.6925pt x 340.27126pt>
+File: input/images/DFD_1.png Graphic file (type png)
+
+<use input/images/DFD_1.png>
+Package pdftex.def Info: input/images/DFD_1.png used on input line 10.
+(pdftex.def)             Requested size: 432.41884pt x 204.16432pt.
+
+<input/images/DFD_2.png, id=510, 875.27pt x 307.1475pt>
+File: input/images/DFD_2.png Graphic file (type png)
+
+<use input/images/DFD_2.png>
+Package pdftex.def Info: input/images/DFD_2.png used on input line 15.
+(pdftex.def)             Requested size: 525.16606pt x 184.28992pt.
+
+Overfull \hbox (41.4692pt too wide) in paragraph at lines 15--16
  [][] 
  []
 
 
-</home/amisha/gitt/6-weeks-report/input/images/fetch.jpg, id=505, 283.0575pt x 
-408.77719pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/fetch.jpg Graphic file (typ
-e jpg)
- <use /home/amisha/gitt/6-weeks-report/input/images/fetch.jpg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/fetch.jp
-g used on input line 14.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osmserv.png, id=511, 888.01762pt x 158.994pt>
+File: input/images/osmserv.png Graphic file (type png)
+
+<use input/images/osmserv.png>
+Package pdftex.def Info: input/images/osmserv.png used on input line 25.
+(pdftex.def)             Requested size: 532.81468pt x 95.39713pt.
+
+Overfull \hbox (49.11781pt too wide) in paragraph at lines 25--26
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/fetch.jpg, id=512, 283.0575pt x 408.77719pt>
+File: input/images/fetch.jpg Graphic file (type jpg)
+
+<use input/images/fetch.jpg>
+Package pdftex.def Info: input/images/fetch.jpg used on input line 33.
 (pdftex.def)             Requested size: 254.74937pt x 367.89606pt.
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.26 
-      </home/amisha/gitt/6-weeks-report/input/images/osmserv.png (PNG copy)>]
+l.45 
+      <./input/images/DFD_0.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.61 \item L
-            ibrary: Mapnik </home/amisha/gitt/6-weeks-report/input/images/fetch
-.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
+l.45 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.3}) has been already used, duplicate ignored
 
- []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.4}) has been already used, duplicate ignored
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--102
-
- []
-
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.45 
+      <./input/images/DFD_1.png> <./input/images/DFD_2.png> <./input/images/osm
+serv.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15])
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \end{itemize}
+                   <./input/images/fetch.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--121
+
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[15]
 Chapter 4.
 (./input/dev/languages.tex
-<input/images/HTML.png, id=534, 2007.5pt x 2007.5pt>
+<input/images/HTML.png, id=533, 2007.5pt x 2007.5pt>
 File: input/images/HTML.png Graphic file (type png)
 
 <use input/images/HTML.png>
 Package pdftex.def Info: input/images/HTML.png used on input line 6.
-(pdftex.def)             Requested size: 150.14671pt x 150.12715pt.
- [17
+(pdftex.def)             Requested size: 145.11053pt x 145.10352pt.
+
+<input/images/CSS.jpg, id=535, 281.05pt x 250.9375pt>
+File: input/images/CSS.jpg Graphic file (type jpg)
+
+<use input/images/CSS.jpg>
+Package pdftex.def Info: input/images/CSS.jpg used on input line 33.
+(pdftex.def)             Requested size: 145.11053pt x 129.56163pt.
+ [16
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.14 
-      <./input/images/HTML.png>]
-<input/images/CSS.jpg, id=541, 281.05pt x 250.9375pt>
-File: input/images/CSS.jpg Graphic file (type jpg)
-
-<use input/images/CSS.jpg>
-Package pdftex.def Info: input/images/CSS.jpg used on input line 33.
-(pdftex.def)             Requested size: 150.14671pt x 134.06068pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.45     text-align: center;
-                             <./input/images/CSS.jpg>]
-<input/images/JS.png, id=548, 451.6875pt x 451.6875pt>
+l.36 \end{figure}
+                  <./input/images/HTML.png>]
+<input/images/JS.png, id=542, 451.6875pt x 451.6875pt>
 File: input/images/JS.png Graphic file (type png)
 
 <use input/images/JS.png>
 Package pdftex.def Info: input/images/JS.png used on input line 50.
-(pdftex.def)             Requested size: 150.14671pt x 150.14629pt.
+(pdftex.def)             Requested size: 145.11053pt x 145.11499pt.
 Missing character: There is no À in font cmr12!
 Missing character: There is no à in font cmr12!
 Missing character: There is no   in font cmr12!
@@ -951,105 +969,89 @@ Missing character: There is no å in font cmr12!
 Missing character: There is no … in font cmr12!
 Missing character: There is no ™ in font cmr12!
 
-<input/images/php.png, id=549, 310.15875pt x 163.61125pt>
-File: input/images/php.png Graphic file (type png)
-
-<use input/images/php.png>
-Package pdftex.def Info: input/images/php.png used on input line 59.
-(pdftex.def)             Requested size: 150.14671pt x 79.20155pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.85 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.85 
-      <./input/images/JS.png> <./input/images/php.png>]
-<input/images/cgs/hello.png, id=556, 451.6875pt x 253.94875pt>
+l.99 
+      <./input/images/CSS.jpg>]
+<input/images/cgs/hello.png, id=547, 451.6875pt x 253.94875pt>
 File: input/images/cgs/hello.png Graphic file (type png)
 
 <use input/images/cgs/hello.png>
-Package pdftex.def Info: input/images/cgs/hello.png used on input line 101.
-(pdftex.def)             Requested size: 300.29344pt x 168.84279pt.
+Package pdftex.def Info: input/images/cgs/hello.png used on input line 104.
+(pdftex.def)             Requested size: 290.22107pt x 163.17763pt.
 
-<input/images/cgs/cm.png, id=557, 451.6875pt x 253.94875pt>
+<input/images/cgs/cm.png, id=548, 451.6875pt x 253.94875pt>
 File: input/images/cgs/cm.png Graphic file (type png)
 
 <use input/images/cgs/cm.png>
-Package pdftex.def Info: input/images/cgs/cm.png used on input line 108.
-(pdftex.def)             Requested size: 300.29344pt x 168.84279pt.
+Package pdftex.def Info: input/images/cgs/cm.png used on input line 111.
+(pdftex.def)             Requested size: 290.22107pt x 163.17763pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 \item S
-             ystem Administration part can be also automated. <./input/images/c
-gs/hello.png (PNG copy)>]) (./input/techno-used.tex
-(/home/amisha/gitt/6-weeks-report/input/tech/ubuntu.tex
-<input/images/ubu.png, id=565, 268.00125pt x 189.70876pt>
+l.130 \item T
+             o automate some task of day today life.pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.4.4}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.130 \item T
+             o automate some task of day today life. <./input/images/JS.png> <.
+/input/images/cgs/hello.png (PNG copy)>]) (./input/dev/json.tex)
+(./input/techno-used.tex (./input/tech/ubuntu.tex
+<input/images/ubu.png, id=557, 268.00125pt x 189.70876pt>
 File: input/images/ubu.png Graphic file (type png)
 
 <use input/images/ubu.png>
 Package pdftex.def Info: input/images/ubu.png used on input line 5.
-(pdftex.def)             Requested size: 150.14671pt x 106.28249pt.
+(pdftex.def)             Requested size: 145.11053pt x 102.71619pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.14 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.7}) has been already used, duplicate ignored
+l.12 
+      <./input/images/cgs/cm.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.14 
-      <./input/images/cgs/cm.png (PNG copy)> <./input/images/ubu.png>])
-(/home/amisha/gitt/6-weeks-report/input/tech/doxygen.tex
-</home/amisha/gitt/6-weeks-report/input/images/doxygen.jpeg, id=573, 404.51125p
-t x 125.46875pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/doxygen.jpeg Graphic file (
-type jpg)
+ []
 
-<use /home/amisha/gitt/6-weeks-report/input/images/doxygen.jpeg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/doxygen.
-jpeg used on input line 3.
+) (./input/tech/doxygen.tex
+<input/images/doxygen.jpeg, id=565, 404.51125pt x 125.46875pt>
+File: input/images/doxygen.jpeg Graphic file (type jpg)
+
+<use input/images/doxygen.jpeg>
+Package pdftex.def Info: input/images/doxygen.jpeg used on input line 3.
 (pdftex.def)             Requested size: 404.51025pt x 125.46843pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--16
@@ -1057,13 +1059,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--16
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 \item C
+            ross platform: Works on Windows and many Unix flavors (includingpdf
+TeX warning (ext4): destination with the same identifier (name{figure.4.7}) has
+ been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 \item C
+            ross platform: Works on Windows and many Unix flavors (including <.
+/input/images/ubu.png> <./input/images/doxygen.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+) (./input/tech/latex.tex
+<input/images/donald.png, id=571, 170.88844pt x 237.13594pt>
+File: input/images/donald.png Graphic file (type png)
+
+<use input/images/donald.png>
+Package pdftex.def Info: input/images/donald.png used on input line 12.
+(pdftex.def)             Requested size: 145.11053pt x 201.37833pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21] <input/images/la.png, id=576, 1371.1225pt x 770.88pt>
+File: input/images/la.png Graphic file (type png)
+
+<use input/images/la.png>
+Package pdftex.def Info: input/images/la.png used on input line 64.
+(pdftex.def)             Requested size: 338.58632pt x 190.35522pt.
+) (./input/tech/git.tex
+<input/images/github.jpg, id=577, 401.5pt x 301.125pt>
+File: input/images/github.jpg Graphic file (type jpg)
+
+<use input/images/github.jpg>
+Package pdftex.def Info: input/images/github.jpg used on input line 5.
+(pdftex.def)             Requested size: 145.11053pt x 108.83682pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1072,68 +1126,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.38 \hspace{4pt}
-                  \$ git clone https://github.com/doxygen/doxygen.git </home/am
-isha/gitt/6-weeks-report/input/images/doxygen.jpeg>])
-(/home/amisha/gitt/6-weeks-report/input/tech/latex.tex
-<input/images/donald.png, id=579, 170.88844pt x 237.13594pt>
-File: input/images/donald.png Graphic file (type png)
-
-<use input/images/donald.png>
-Package pdftex.def Info: input/images/donald.png used on input line 12.
-(pdftex.def)             Requested size: 150.14671pt x 208.36908pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.40 
+l.11 
       <./input/images/donald.png>]
-<input/images/la.png, id=584, 1371.1225pt x 770.88pt>
-File: input/images/la.png Graphic file (type png)
-
-<use input/images/la.png>
-Package pdftex.def Info: input/images/la.png used on input line 64.
-(pdftex.def)             Requested size: 350.33727pt x 196.96585pt.
-) (/home/amisha/gitt/6-weeks-report/input/tech/git.tex
-</home/amisha/gitt/6-weeks-report/input/images/github.jpg, id=585, 401.5pt x 30
-1.125pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/github.jpg Graphic file (ty
-pe jpg)
- <use /home/amisha/gitt/6-weeks-report/input/images/github.jpg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/github.j
-pg used on input line 5.
-(pdftex.def)             Requested size: 150.14671pt x 112.61374pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.13 
-      <./input/images/la.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
@@ -1148,6 +1147,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--23
 
  []
 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.28 \item R
+            ole-Based Code lines. \\ Have a branch that always contains onlypdf
+TeX warning (ext4): destination with the same identifier (name{figure.4.10}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.28 \item R
+            ole-Based Code lines. \\ Have a branch that always contains only <.
+/input/images/la.png> <./input/images/github.jpg>]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no î in font cmr12!
@@ -1156,27 +1176,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--49
 
  []
 
+<input/images/git.jpg, id=587, 219.95218pt x 219.95218pt>
+File: input/images/git.jpg Graphic file (type jpg)
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.49 
-      </home/amisha/gitt/6-weeks-report/input/images/github.jpg>]
-</home/amisha/gitt/6-weeks-report/input/images/git.jpg, id=595, 219.95218pt x 2
-19.95218pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/git.jpg Graphic file (type 
-jpg)
- <use /home/amisha/gitt/6-weeks-report/input/images/git.jpg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/git.jpg 
-used on input line 53.
-(pdftex.def)             Requested size: 150.14671pt x 150.15617pt.
+<use input/images/git.jpg>
+Package pdftex.def Info: input/images/git.jpg used on input line 53.
+(pdftex.def)             Requested size: 145.11053pt x 145.11853pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
@@ -1191,6 +1196,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.60 
+      <./input/images/git.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
@@ -1211,18 +1228,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--72
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.72 
-      </home/amisha/gitt/6-weeks-report/input/images/git.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -1233,6 +1238,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
@@ -1242,68 +1253,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[27]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-) (/home/amisha/gitt/6-weeks-report/input/tech/reveal.tex
-<input/images/reveal.png, id=605, 269.005pt x 112.42pt>
+) (./input/tech/reveal.tex
+<input/images/reveal.png, id=599, 269.005pt x 112.42pt>
 File: input/images/reveal.png Graphic file (type png)
 
 <use input/images/reveal.png>
 Package pdftex.def Info: input/images/reveal.png used on input line 4.
-(pdftex.def)             Requested size: 150.14671pt x 62.74721pt.
+(pdftex.def)             Requested size: 145.11053pt x 60.64413pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--23
-
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-3}) has been already used, duplicate ignored
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.23 
-      <./input/images/reveal.png>])
-(/home/amisha/gitt/6-weeks-report/input/tech/exp.tex
-<input/images/ser.png, id=611, 451.6875pt x 451.6875pt>
+l.15 \subsection
+                {Installation of reveal-md} <./input/images/reveal.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
+
+ []
+
+) (./input/tech/exp.tex
+<input/images/ser.png, id=605, 451.6875pt x 451.6875pt>
 File: input/images/ser.png Graphic file (type png)
 
 <use input/images/ser.png>
 Package pdftex.def Info: input/images/ser.png used on input line 4.
-(pdftex.def)             Requested size: 150.14671pt x 150.14629pt.
+(pdftex.def)             Requested size: 145.11053pt x 145.11499pt.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -1314,7 +1317,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--13
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.13 \begin{itemize}
+                     <./input/images/ser.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+) (./input/tech/django.tex
+<input/images/django.png, id=611, 784.9325pt x 423.5825pt>
+File: input/images/django.png Graphic file (type png)
+
+<use input/images/django.png>
+Package pdftex.def Info: input/images/django.png used on input line 5.
+(pdftex.def)             Requested size: 145.11053pt x 78.30336pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./input/tech/osm1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--1
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28] <input/images/index.jpeg, id=616, 225.84375pt x 225.84375pt>
+File: input/images/index.jpeg Graphic file (type jpg)
+
+<use input/images/index.jpeg>
+Package pdftex.def Info: input/images/index.jpeg used on input line 5.
+(pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
+
+<input/images/index.png, id=617, 238.8925pt x 211.79124pt>
+File: input/images/index.png Graphic file (type png)
+
+<use input/images/index.png>
+Package pdftex.def Info: input/images/index.png used on input line 15.
+(pdftex.def)             Requested size: 193.47578pt x 171.52734pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1323,203 +1389,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.19 \end{itemize}
-                   <./input/images/ser.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--24
-
- []
-
-) (/home/amisha/gitt/6-weeks-report/input/tech/cgs.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[30] <input/images/cgs/cgs1.png, id=622, 1371.1225pt x 770.88pt>
-File: input/images/cgs/cgs1.png Graphic file (type png)
-
-<use input/images/cgs/cgs1.png>
-Package pdftex.def Info: input/images/cgs/cgs1.png used on input line 29.
-(pdftex.def)             Requested size: 350.33727pt x 196.96585pt.
-
-<input/images/cgs/cgs2.png, id=623, 1306.8825pt x 629.35126pt>
-File: input/images/cgs/cgs2.png Graphic file (type png)
-
-<use input/images/cgs/cgs2.png>
-Package pdftex.def Info: input/images/cgs/cgs2.png used on input line 43.
-(pdftex.def)             Requested size: 350.33727pt x 168.7075pt.
-
-<input/images/cgs/cgs3.png, id=624, 1302.8675pt x 503.8825pt>
-File: input/images/cgs/cgs3.png Graphic file (type png)
-
-<use input/images/cgs/cgs3.png>
-Package pdftex.def Info: input/images/cgs/cgs3.png used on input line 57.
-(pdftex.def)             Requested size: 350.33727pt x 135.48882pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[31pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.68     N
-          ext you will be displayed your selected image and a selection box.pdf
-TeX warning (ext4): destination with the same identifier (name{figure.4.16}) ha
-s been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.68     N
-          ext you will be displayed your selected image and a selection box. <.
-/input/images/cgs/cgs1.png> <./input/images/cgs/cgs2.png>]
-<input/images/cgs/cgs4.png, id=629, 1300.86pt x 584.1825pt>
-File: input/images/cgs/cgs4.png Graphic file (type png)
-
-<use input/images/cgs/cgs4.png>
-Package pdftex.def Info: input/images/cgs/cgs4.png used on input line 72.
-(pdftex.def)             Requested size: 350.33727pt x 157.32133pt.
-
-<input/images/cgs/cgs5.png, id=630, 1304.875pt x 601.24625pt>
-File: input/images/cgs/cgs5.png Graphic file (type png)
-
-<use input/images/cgs/cgs5.png>
-Package pdftex.def Info: input/images/cgs/cgs5.png used on input line 81.
-(pdftex.def)             Requested size: 350.33727pt x 161.42122pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
-7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.88     T
-          hats it your certificate is generated and can be downloaded in two...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.88     T
-          hats it your certificate is generated and can be downloaded in two...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.88     T
-          hats it your certificate is generated and can be downloaded in two...
- <./input/images/cgs/cgs3.png> <./input/images/cgs/cgs4.png> <./input/images/cg
-s/cgs5.png>] <input/images/cgs/cgs6.png, id=635, 1304.875pt x 489.83pt>
-File: input/images/cgs/cgs6.png Graphic file (type png)
-
-<use input/images/cgs/cgs6.png>
-Package pdftex.def Info: input/images/cgs/cgs6.png used on input line 96.
-(pdftex.def)             Requested size: 350.33727pt x 131.50844pt.
-
-<input/images/cgs/cgs8.png, id=636, 1247.66125pt x 722.7pt>
-File: input/images/cgs/cgs8.png Graphic file (type png)
-
-<use input/images/cgs/cgs8.png>
-Package pdftex.def Info: input/images/cgs/cgs8.png used on input line 103.
-(pdftex.def)             Requested size: 350.33727pt x 202.92804pt.
-
-! Misplaced alignment tab character &.
-l.111     with same design &
-                             institute details and different Candidate Details.
-
-? 
-File: input/images/cgs/cgs3.png Graphic file (type png)
-<use input/images/cgs/cgs3.png>
-Package pdftex.def Info: input/images/cgs/cgs3.png used on input line 121.
-(pdftex.def)             Requested size: 350.33727pt x 135.48882pt.
-
-<input/images/cgs/cgs9.png, id=637, 1305.87875pt x 674.52pt>
-File: input/images/cgs/cgs9.png Graphic file (type png)
-
-<use input/images/cgs/cgs9.png>
-Package pdftex.def Info: input/images/cgs/cgs9.png used on input line 133.
-(pdftex.def)             Requested size: 350.33727pt x 180.94951pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.143 -
-       > odt ('O'penOffice 'D'ocument 'T'ext)pdfTeX warning (ext4): destination
- with the same identifier (name{figure.4.21}) has been already used, duplicate 
-ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.143 -
-       > odt ('O'penOffice 'D'ocument 'T'ext) <./input/images/cgs/cgs6.png> <./
-input/images/cgs/cgs8.png>]
-<input/images/cgs/cgs14.png, id=642, 1246.6575pt x 723.70375pt>
-File: input/images/cgs/cgs14.png Graphic file (type png)
-
-<use input/images/cgs/cgs14.png>
-Package pdftex.def Info: input/images/cgs/cgs14.png used on input line 148.
-(pdftex.def)             Requested size: 350.33727pt x 203.37553pt.
-)
-(/home/amisha/gitt/6-weeks-report/input/tech/osm1.tex
-</home/amisha/gitt/6-weeks-report/input/images/index.jpeg, id=643, 225.84375pt 
-x 225.84375pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/index.jpeg Graphic file (ty
-pe jpg)
- <use /home/amisha/gitt/6-weeks-report/input/images/index.jpeg>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/index.jp
-eg used on input line 5.
-(pdftex.def)             Requested size: 135.50728pt x 135.50728pt.
-
-<input/images/index.png, id=644, 238.8925pt x 211.79124pt>
-File: input/images/index.png Graphic file (type png)
-
-<use input/images/index.png>
-Package pdftex.def Info: input/images/index.png used on input line 15.
-(pdftex.def)             Requested size: 200.19054pt x 177.48007pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
 l.19 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.23}) has been already used, duplicate ignored
+.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.19 
-      <./input/images/cgs/cgs9.png>]
+      <./input/images/django.png> <./input/images/index.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 22--25
 
  []
@@ -1530,57 +1407,30 @@ Missing character: There is no ò in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-<input/images/bright.jpeg, id=649, 380.42125pt x 133.49875pt>
+<input/images/bright.jpeg, id=622, 380.42125pt x 133.49875pt>
 File: input/images/bright.jpeg Graphic file (type jpg)
 
 <use input/images/bright.jpeg>
 Package pdftex.def Info: input/images/bright.jpeg used on input line 32.
-(pdftex.def)             Requested size: 350.33727pt x 122.94456pt.
+(pdftex.def)             Requested size: 338.58632pt x 118.82164pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.36 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-.25}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.36 
-      <./input/images/cgs/cgs14.png> </home/amisha/gitt/6-weeks-report/input/im
-ages/index.jpeg>]
 Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.42 \subsection
-                {OpenLayer.js}pdfTeX warning (ext4): destination with the same 
-identifier (name{figure.4.27}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.42 \subsection
-                {OpenLayer.js} <./input/images/index.png> <./input/images/brigh
-t.jpeg>]
+                {OpenLayer.js} <./input/images/index.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1593,265 +1443,960 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--1
 
  []
 
+<input/images/osm7.png, id=629, 657.45625pt x 370.38374pt>
+File: input/images/osm7.png Graphic file (type png)
 
-</home/amisha/gitt/6-weeks-report/input/images/osm7.png, id=660, 657.45625pt x 
-370.38374pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osm7.png Graphic file (type
- png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osm7.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osm7.png
- used on input line 9.
-(pdftex.def)             Requested size: 350.33727pt x 197.37059pt.
+<use input/images/osm7.png>
+Package pdftex.def Info: input/images/osm7.png used on input line 9.
+(pdftex.def)             Requested size: 338.58632pt x 190.74692pt.
 
-</home/amisha/gitt/6-weeks-report/input/images/osm5.png, id=661, 1306.8825pt x 
-743.77875pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osm5.png Graphic file (type
- png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osm5.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osm5.png
- used on input line 16.
-(pdftex.def)             Requested size: 350.33727pt x 199.3816pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[31pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.15 \begin{itemize}
+                     <./input/images/bright.jpeg>]
+<input/images/osm5.png, id=634, 1306.8825pt x 743.77875pt>
+File: input/images/osm5.png Graphic file (type png)
+
+<use input/images/osm5.png>
+Package pdftex.def Info: input/images/osm5.png used on input line 18.
+(pdftex.def)             Requested size: 338.58632pt x 192.69696pt.
+
+<input/images/osm_boundary.png, id=635, 965.6075pt x 673.51625pt>
+File: input/images/osm_boundary.png Graphic file (type png)
+
+<use input/images/osm_boundary.png>
+Package pdftex.def Info: input/images/osm_boundary.png used on input line 24.
+(pdftex.def)             Requested size: 338.58632pt x 236.16585pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_icon.png, id=636, 778.91pt x 403.5075pt>
+File: input/images/osm_icon.png Graphic file (type png)
+
+<use input/images/osm_icon.png>
+Package pdftex.def Info: input/images/osm_icon.png used on input line 30.
+(pdftex.def)             Requested size: 338.58632pt x 175.4012pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_language.png, id=637, 751.80875pt x 507.8975pt>
+File: input/images/osm_language.png Graphic file (type png)
+
+<use input/images/osm_language.png>
+Package pdftex.def Info: input/images/osm_language.png used on input line 36.
+(pdftex.def)             Requested size: 338.58632pt x 228.74551pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_level_4.png, id=638, 1290.8225pt x 628.3475pt>
+File: input/images/osm_level_4.png Graphic file (type png)
+
+<use input/images/osm_level_4.png>
+Package pdftex.def Info: input/images/osm_level_4.png used on input line 42.
+(pdftex.def)             Requested size: 338.58632pt x 164.81425pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_level8.png, id=639, 1295.84125pt x 615.29875pt>
+File: input/images/osm_level8.png Graphic file (type png)
+
+<use input/images/osm_level8.png>
+Package pdftex.def Info: input/images/osm_level8.png used on input line 47.
+(pdftex.def)             Requested size: 338.58632pt x 160.77193pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm2.png, id=640, 1304.875pt x 533.995pt>
+File: input/images/osm2.png Graphic file (type png)
+
+<use input/images/osm2.png>
+Package pdftex.def Info: input/images/osm2.png used on input line 55.
+(pdftex.def)             Requested size: 338.58632pt x 138.55838pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.19 
-      </home/amisha/gitt/6-weeks-report/input/images/osm7.png>]
-</home/amisha/gitt/6-weeks-report/input/images/osm2.png, id=666, 1304.875pt x 5
-33.995pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osm2.png Graphic file (type
- png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osm2.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osm2.png
- used on input line 23.
-(pdftex.def)             Requested size: 350.33727pt x 143.36577pt.
+l.58 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.19}) has been already used, duplicate ignored
 
-</home/amisha/gitt/6-weeks-report/input/images/osm3.png, id=667, 1301.86375pt x
- 386.44376pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osm3.png Graphic file (type
- png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osm3.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osm3.png
- used on input line 28.
-(pdftex.def)             Requested size: 350.33727pt x 103.9933pt.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.58 
+      <./input/images/osm7.png> <./input/images/osm5.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: input/images/osm2.png Graphic file (type png)
+<use input/images/osm2.png>
+Package pdftex.def Info: input/images/osm2.png used on input line 62.
+(pdftex.def)             Requested size: 338.58632pt x 138.55838pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm3.png, id=645, 1301.86375pt x 386.44376pt>
+File: input/images/osm3.png Graphic file (type png)
+
+<use input/images/osm3.png>
+Package pdftex.def Info: input/images/osm3.png used on input line 67.
+(pdftex.def)             Requested size: 338.58632pt x 100.50249pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_script.png, id=646, 934.49126pt x 514.92375pt>
+File: input/images/osm_script.png Graphic file (type png)
+
+<use input/images/osm_script.png>
+Package pdftex.def Info: input/images/osm_script.png used on input line 74.
+(pdftex.def)             Requested size: 338.58632pt x 186.56668pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
-9}) has been already used, duplicate ignored
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 \item P
-            hase VI (Insert Pop up Menu and Icons) -: \\pdfTeX warning (ext4): 
-destination with the same identifier (name{figure.4.30}) has been already used,
- duplicate ignored
+l.77 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 \item P
-            hase VI (Insert Pop up Menu and Icons) -: \\ </home/amisha/gitt/6-w
-eeks-report/input/images/osm5.png> </home/amisha/gitt/6-weeks-report/input/imag
-es/osm2.png>]
-</home/amisha/gitt/6-weeks-report/input/images/osm1.png, id=672, 1308.89pt x 74
-2.775pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osm1.png Graphic file (type
- png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osm1.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osm1.png
- used on input line 39.
-(pdftex.def)             Requested size: 350.33727pt x 198.80652pt.
+l.77 
+      <./input/images/osm_boundary.png> <./input/images/osm_icon.png>]
 
-</home/amisha/gitt/6-weeks-report/input/images/osm8.png, id=673, 1302.8675pt x 
-743.77875pt>
-File: /home/amisha/gitt/6-weeks-report/input/images/osm8.png Graphic file (type
- png)
- <use /home/amisha/gitt/6-weeks-report/input/images/osm8.png>
-Package pdftex.def Info: /home/amisha/gitt/6-weeks-report/input/images/osm8.png
- used on input line 45.
-(pdftex.def)             Requested size: 350.33727pt x 199.99446pt.
+LaTeX Warning: Text page 34 contains only floats.
 
-Overfull \hbox (3.66498pt too wide) in paragraph at lines 48--51
-\OT1/cmr/m/n/12 During fi-nal phase, we doc-u-mented the project( de-vel-op-ers
- doc-u-men-ta-tion and README.md)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+      <./input/images/osm_language.png> <./input/images/osm_level_4.png> <./inp
+ut/images/osm_level8.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.84 
+      <./input/images/osm2.png> <./input/images/osm3.png>]
+File: input/images/osm_building.png Graphic file (type png)
+
+<use input/images/osm_building.png>
+Package pdftex.def Info: input/images/osm_building.png used on input line 86.
+(pdftex.def)             Requested size: 338.58632pt x 172.9411pt.
+
+<input/images/osm_search.png, id=659, 1282.7925pt x 412.54124pt>
+File: input/images/osm_search.png Graphic file (type png)
+
+<use input/images/osm_search.png>
+Package pdftex.def Info: input/images/osm_search.png used on input line 93.
+(pdftex.def)             Requested size: 338.58632pt x 108.88857pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_animations.png, id=660, 1281.78876pt x 655.44875pt>
+File: input/images/osm_animations.png Graphic file (type png)
+
+<use input/images/osm_animations.png>
+Package pdftex.def Info: input/images/osm_animations.png used on input line 98.
+
+(pdftex.def)             Requested size: 338.58632pt x 173.13301pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<input/images/osm_remote.png, id=661, 1284.8pt x 564.1075pt>
+File: input/images/osm_remote.png Graphic file (type png)
+
+<use input/images/osm_remote.png>
+Package pdftex.def Info: input/images/osm_remote.png used on input line 106.
+(pdftex.def)             Requested size: 338.58632pt x 148.66144pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 \end{itemize}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.4.29}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.113 \end{itemize}
+                    <./input/images/osm_script.png>]) (./input/tech/test.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
+0}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 T
+     his project had been taken through rigorous test to fully found potenti...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.31})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 T
+     his project had been taken through rigorous test to fully found potenti...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.32})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 T
+     his project had been taken through rigorous test to fully found potenti...
+ <./input/images/osm_search.png> <./input/images/osm_animations.png> <./input/i
+mages/osm_remote.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/12 Test
  []
 
-) (./input/tech/test.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+\OT1/cmr/m/n/12 Case
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 21--21
+[]\OT1/cmr/m/n/12 Test Case
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/12 Pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]\OT1/cmr/m/n/12 Execution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+[]\OT1/cmr/m/n/12 OSM tile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/12 OSM in-stal-la-
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 27--28
+\OT1/cmr/m/n/12 tion script run
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+\OT1/cmr/m/n/12 net-work
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+\OT1/cmr/m/n/12 con-nec-tion
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 28--30
+\OT1/cmr/m/n/12 2. Min-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+\OT1/cmr/m/n/12 space re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+\OT1/cmr/m/n/12 quired is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/12 Execute
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 the script
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 file in-
+ []
+
+
+Overfull \hbox (6.92244pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 stall[]osm.sh.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]\OT1/cmr/m/n/12 If lo-cal-host
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 31--32
+\OT1/cmr/m/n/12 out-put map of
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 31--32
+\OT1/cmr/m/n/12 the world then
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 31--32
+\OT1/cmr/m/n/12 OSM server is
+ []
+
+
+Overfull \hbox (3.91333pt too wide) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/12 passsed| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+[]\OT1/cmr/m/n/12 Database
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/12 1.Dumping the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+\OT1/cmr/m/n/12 raw data to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 database
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 ad-min-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 is-tra-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 rights
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 must be
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 2. The
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 stor-age
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 be suf-fi-
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 39--41
+[]\OT1/cmr/m/n/12 1. Give
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\OT1/cmr/m/n/12 raw data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\OT1/cmr/m/n/12 pro-cessers
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\OT1/cmr/m/n/12 should
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\OT1/cmr/m/n/12 be free
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\OT1/cmr/m/n/12 for easy
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 41--42
+[]\OT1/cmr/m/n/12 It would re-sult
+ []
+
+
+Underfull \hbox (badness 7012) in paragraph at lines 41--42
+\OT1/cmr/m/n/12 in build-ing 9-
+ []
+
+
+Overfull \hbox (3.91333pt too wide) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/12 passsed| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+[]\OT1/cmr/m/n/12 Mod[]tile
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 46--47
+[]\OT1/cmr/m/n/12 Mod[]tile In-stal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+\OT1/cmr/m/n/12 slip-pymap to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[]\OT1/cmr/m/n/12 Compile
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+\OT1/cmr/m/n/12 the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\OT1/cmr/m/n/12 In case lo-cal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\OT1/cmr/m/n/12 host/-mod[]tiles
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+\OT1/cmr/m/n/12 out-puts then
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 49--50
+\OT1/cmr/m/n/12 mod[]tile server
+ []
+
+
+Overfull \hbox (3.91333pt too wide) in paragraph at lines 50--51
+[]\OT1/cmr/m/n/12 passsed| 
+ []
+
+
+Overfull \hbox (4.33212pt too wide) in paragraph at lines 19--53
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]\OT1/cmr/m/n/12 Test
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+\OT1/cmr/m/n/12 Case
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 60--60
+[]\OT1/cmr/m/n/12 Test Case
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/12 Pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]\OT1/cmr/m/n/12 Execution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+[]\OT1/cmr/m/n/12 Searching
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+\OT1/cmr/m/n/12 Places
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/12 Searching the
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 66--67
+\OT1/cmr/m/n/12 name of place
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+[]\OT1/cmr/m/n/12 1.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+\OT1/cmr/m/n/12 Database
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+\OT1/cmr/m/n/12 tag as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+\OT1/cmr/m/n/12 In-ter-net
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+\OT1/cmr/m/n/12 con-nec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/12 Write
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\OT1/cmr/m/n/12 name of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\OT1/cmr/m/n/12 place in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\OT1/cmr/m/n/12 search
+ []
+
+
+Overfull \hbox (3.91333pt too wide) in paragraph at lines 71--72
+[]\OT1/cmr/m/n/12 passsed| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+[]\OT1/cmr/m/n/12 Language
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+\OT1/cmr/m/n/12 or-der-ing
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 75--76
+\OT1/cmr/m/n/12 map should be
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 75--76
+\OT1/cmr/m/n/12 in or-der Pun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+[]\OT1/cmr/m/n/12 Carto
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 76--77
+\OT1/cmr/m/n/12 should be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+\OT1/cmr/m/n/12 cor-rectly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+\OT1/cmr/m/n/12 pymap in
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/12 Map with cus-
+ []
+
+
+Overfull \hbox (3.91333pt too wide) in paragraph at lines 79--80
+[]\OT1/cmr/m/n/12 passsed| 
+ []
+
+
+Overfull \hbox (4.33212pt too wide) in paragraph at lines 58--82
+[][] 
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
-1}) has been already used, duplicate ignored
+[38pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.5 
-    pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-32}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.5 
-     </home/amisha/gitt/6-weeks-report/input/images/osm3.png> </home/amisha/git
-t/6-weeks-report/input/images/osm1.png>])
+l.93 \chapter
+             {Conclusion and Future Scope}]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3
-3}) has been already used, duplicate ignored
+[39pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.91 \chapter
-             {Conclusion and Future Scope} </home/amisha/gitt/6-weeks-report/in
-put/images/osm8.png>]
+l.93 \chapter
+             {Conclusion and Future Scope}]
 Chapter 5.
-(./input/Conclusion/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
+(./input/Conclusion/conclusion.tex) (./input/legacy.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
  []
 
-) (./input/legacy.tex [41
+) (./input/Conclusion/future.tex [40
 
-]) (./input/Conclusion/future.tex)
-(./input/Conclusion/bibliography.tex
+]) (./input/Conclusion/bibliography.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 18.0pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
-Underfull \hbox (badness 1127) in paragraph at lines 3--4
-[]\OT1/cmr/m/n/12 L[]T[]X Be-gin-ner's Guide By Ste-fan Kot-twitz, https://www.
-packtpub.com/hardware-and-
+[41]
+Underfull \hbox (badness 1286) in paragraph at lines 9--10
+[]\OT1/cmr/m/n/12 "User:amisha2016 - Open-StreetMap", open-streetmap.org, 2016.
+ [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 5--6
-[]\OT1/cmr/m/n/12 Installation Guide, https://switch2osm.org/serving-tiles/manu
-ally-building-a-tile-server-14-
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/12 "Customizing OSM Map" , Amisha Bud-hi-raja, 2016. [On-line]. 
+Avail-able:
  []
 
-) 
-AED: lastpage setting LastPage
-[43
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 https://amisha2016.wordpress.com/2016/11/13/customizing-osm-map
+/ . [Ac-cessed:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\OT1/cmr/m/n/12 "OpenStreetMap User Man-ual - Wik-i-books, open books for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+\OT1/cmr/m/n/12 an open world", En.wikibooks.org, 2016. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/12 "User: Amisha Bud-hi-raja pbOSM", GitHub, 2017. [On-line]. Av
+ail-able:
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 18--19
+[]\OT1/cmr/m/n/12 "3D OSM Build-ings with leaflet", Amisha Bud-hi-raja, 2017. [
+On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+\OT1/cmr/m/n/12 https://amisha2016.wordpress.com/2017/07/11/integration-of-3d-o
+smbuilding-with-
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/12 "Increased zoom level to 28 in OSM", Amisha Bud-hi-raja, 2017
+. [On-line]. Avail-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 "OpenStreetmap - Blogs", open-streetmap.org, 2016. [On-line].
+ Avail-able:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+[]\OT1/cmr/m/n/12 "JOSM (soft-ware)", En.wikipedia.org. [On-line]. Avail-able:
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/12 "Playing with Lan-guages in OSM", Amisha Bud-hi-raja, 2017. [
+On-line]. Avail-
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 32--33
+\OT1/cmr/m/n/12 able: https://amisha2016.wordpress.com/2017/07/03/playing-with-
+languages-in-osm/.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+[]\OT1/cmr/m/n/12 "Travis CI", En.wikipedia.org, 2017. [On-line]. Avail-able:
+ []
+
+) AED: lastpage setting LastPage [42
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   pdfTeX warning (ext4): destination with the same identifier 
-(name{cite.}) has been already used, duplicate ignored
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \end{document}
-                   ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.100 \end{document}
+                    ]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: DD7FB2157BB54EF6D4DB4165FBDFAE13;4026.
+(rerunfilecheck)             Checksum: A13D24C97AE77FEA36D40A4E4DD138E8;4079.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 6 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7613 strings out of 493085
- 112281 string characters out of 6136917
- 295714 words of memory out of 5000000
- 10683 multiletter control sequences out of 15000+600000
+ 8792 strings out of 493029
+ 126481 string characters out of 6136233
+ 310097 words of memory out of 5000000
+ 11908 multiletter control sequences out of 15000+600000
  14132 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,1151b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,1149b,494s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
@@ -1861,10 +2406,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (50 pages, 4477388 bytes).
+Output written on report.pdf (49 pages, 3303389 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 666 compressed objects within 7 object streams
- 207 named destinations out of 1000 (max. 500000)
- 658 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 774 PDF objects out of 1000 (max. 8388607)
+ 663 compressed objects within 7 object streams
+ 199 named destinations out of 1000 (max. 500000)
+ 671 words of extra memory for PDF output out of 10000 (max. 10000000)
 
