@@ -1,0 +1,103 @@
+\section{Table Structure}
+
+\begin{table}[h!]
+\caption{Map uses different database schemas}
+
+\begin{tabular}{|p{2cm}|p{2cm}|p{2.5cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+Schema name & Created with & Primary use case & Updatable
+& Geometries & Lossless & hstore columns\\
+
+\hline \rule[-2ex]{0pt}{5.5ex}
+osm2pgsql & osm2pgsql & Rendering
+& yes & yes & no & optional\\
+
+\hline \rule[-2ex]{0pt}{5.5ex}  
+nominatim & osm2pgsql & search, geocoding
+& yes & yes & no & optional\\
+
+\hline \rule[-2ex]{0pt}{5.5ex}  
+apidb & osmosis & Mirroring
+& yes & no & yes & no\\
+
+\hline \rule[-2ex]{0pt}{5.5ex}  
+waychange & SQL & Data cache and analysis
+& only a schema & optional & optional & no\\
+
+\hline \rule[-2ex]{0pt}{5.5ex}  
+osm2pgsql & osm2pgsql & Rendering
+& yes & yes & no & optional\\
+
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.8]{input/images/osm_db.png}
+	\caption{Database design}
+\end{figure}
+
+\begin{table}[h!]
+	\caption{Database tables}
+
+	\begin{tabular}{|p{2cm}|p{4.5cm}|p{2.5cm}|p{2cm}|p{2cm}|}
+		\hline
+		Schema & Name & Type & Owner
+		& Size \\
+
+		\hline \rule[-2ex]{0pt}{5.5ex}
+		public & geography\_columns & view
+		& postgres & 0 bytes\\
+
+
+                \hline \rule[-2ex]{0pt}{5.5ex}
+                public & geometry\_columns & view
+                & amisha & 0 bytes\\
+
+
+                \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_line & table
+                & amisha & 796MB\\
+
+               \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_nodes & table
+                & amisha & 2838MB\\
+
+               \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_point & table
+                & amisha & 172MB\\
+
+               \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_polygon & table
+                & amisha & 1232MB\\
+
+               \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_rels & table
+                & amisha & 14MB\\
+
+               \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_roads & table
+                & amisha & 131MB\\
+
+               \hline \rule[-2ex]{0pt}{5.5ex}
+                public & planet\_osm\_ways & table
+                & amisha & 1397MB\\
+
+                \hline \rule[-2ex]{0pt}{5.5ex}
+                public & raster\_columns & view
+                & postgres & 0 bytes\\
+
+                \hline \rule[-2ex]{0pt}{5.5ex}
+                public & raster\_overviews & view
+                & postgres & 0 bytes\\
+
+                \hline \rule[-2ex]{0pt}{5.5ex}
+                public & spatial\_ref\_sys & table
+                & amisha & 4008 KB\\
+
+
+		\hline
+	\end{tabular}
+\end{table}
+

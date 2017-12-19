@@ -1,0 +1,49 @@
+\section{Product Functions}
+
+Functions performed by Customizer are:
+\begin{itemize}
+    \item {\bf Provision to give your own stylesheets}: This means there is a syntax which could be used to generate maps with different stylesheetsi.
+    The stylesheets that we intend to support are:
+    \begin{enumerate}
+        \item Shapefiles
+        \item Directly from postgresql database.
+        \item Protocolbuffer Binary Format.
+        \item xml file
+        \item osm file
+       
+    \end{enumerate}
+   
+    \item \textbf{Provide Syntax for adding ten layers in mod\_tile:}
+    Customer also provide more than one mod\_tile layers and store tiles separately for each layers. I t is used to run more than one style sheets at a time.
+   
+   
+    \item {\bf Provides Syntax to increase the zooom level to 28}:
+    This means user can zoom into the 28 levels of the map by providing an algorithm.
+   
+    \item \textbf{Provides Syntax to see the dfference between two data files}:
+    This feature is used to see the difference betweem two data files using osmosis.
+   
+    \item \textbf{Provides Syntax to convert format of data file from one to other}:
+    This feature is used to convert format of data file from one to other using shp2pgsql.
+   
+    \item \textbf{Provides Syntax to make certain parameters Global}
+    User is free to change domain name, postgresql database name, unix user name for tile server.
+
+    \item \textbf{Provides Syntax to change the colour of polygon at different zoom levels:}
+    This means user can change the colour and transparency of the highlighted area in the maps.
+
+    \item \textbf{Provides option to see GNE tour:}
+    This feature describes the important places of the camp by viewing a GNE tour.
+   
+    \item \textbf{Provides Save the set of parameters in JSON file}:
+    This feature saves the OSMBuildings data in JSON file with each building as an object.
+   
+    \item \textbf{Provides support to storing the tiles in png format}
+    This means the after generating the tiles they are stored in png format.
+   
+    \item \textbf{Provides Cmd-line support to render the maps:}
+    This means that maps can also be render from the command line.
+   
+     
+\end{itemize}
+

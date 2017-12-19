@@ -2,60 +2,70 @@
 \contentsline {section}{\numberline {1.1}Testing and Consutancy Cell}{1}{section.1.1}
 \contentsline {chapter}{\numberline {2}Introduction to Project}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Overview}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Existing System}{3}{section.2.2}
+\contentsline {section}{\numberline {2.2}Existing System}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}User Requirement Analysis}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Feasibilty Study}{5}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Types of Feasibility Study}{5}{subsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.1.1}Technical Feasibility}{5}{subsubsection.2.4.1.1}
+\contentsline {subsection}{\numberline {2.3.1}Users of the System}{4}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Functional Requirements}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Non functional requirements}{6}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Feasibility Study}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Types of Feasibility Study}{6}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Technical Feasibility}{6}{subsubsection.2.4.1.1}
 \contentsline {subsubsection}{\numberline {2.4.1.2}Economic Feasibility}{7}{subsubsection.2.4.1.2}
-\contentsline {subsubsection}{\numberline {2.4.1.3}Behavioral Feasibility}{8}{subsubsection.2.4.1.3}
-\contentsline {section}{\numberline {2.5}Objective of Project }{9}{section.2.5}
-\contentsline {chapter}{\numberline {3}Project Design}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Software Requirement Analysis}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Functional Requirements}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Non functional requirements}{12}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}DFDs}{12}{section.3.2}
-\contentsline {section}{\numberline {3.3}Flowchart}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Problem Formulation}{12}{section.3.4}
-\contentsline {section}{\numberline {3.5}Dependencies}{14}{section.3.5}
-\contentsline {section}{\numberline {3.6}Methodology}{15}{section.3.6}
-\contentsline {section}{\numberline {3.7}Project Work}{15}{section.3.7}
-\contentsline {chapter}{\numberline {4}Development and Implementation}{16}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction to Languages}{16}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}HTML}{16}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}CSS}{17}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}CMake}{18}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Shell Scripting}{18}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}JSON}{19}{section.4.2}
-\contentsline {section}{\numberline {4.3}Ubuntu: An open source OS}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Introduction To Doxygen}{21}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Installation of Doxygen}{21}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Introduction to \LaTeX }{21}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Typesetting}{22}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Introduction to Github}{22}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}What is Git?}{24}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Installation of Git}{25}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Various Git Commands}{25}{subsection.4.6.3}
-\contentsline {subsubsection}{\numberline {4.6.3.1}Create Repositories}{25}{subsubsection.4.6.3.1}
-\contentsline {subsubsection}{\numberline {4.6.3.2}Make Changes}{25}{subsubsection.4.6.3.2}
-\contentsline {subsubsection}{\numberline {4.6.3.3}Group Changes}{26}{subsubsection.4.6.3.3}
-\contentsline {subsubsection}{\numberline {4.6.3.4}Synchronize Changes}{26}{subsubsection.4.6.3.4}
-\contentsline {section}{\numberline {4.7}Introduction to Reveal-js \& Reveal-md}{26}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Installation of reveal-md}{27}{subsection.4.7.1}
-\contentsline {section}{\numberline {4.8}Working with Experimental Server}{27}{section.4.8}
-\contentsline {section}{\numberline {4.9}Python Django Framework}{29}{section.4.9}
-\contentsline {section}{\numberline {4.10}OSM and its Components }{29}{section.4.10}
-\contentsline {subsection}{\numberline {4.10.1}Benifits Of Own Tile Server}{29}{subsection.4.10.1}
-\contentsline {subsection}{\numberline {4.10.2}Postgresql / postgis}{30}{subsection.4.10.2}
-\contentsline {subsection}{\numberline {4.10.3}Osm2pgsql}{30}{subsection.4.10.3}
-\contentsline {subsection}{\numberline {4.10.4}Openstreetmap-carto}{31}{subsection.4.10.4}
-\contentsline {subsection}{\numberline {4.10.5}OpenLayer.js}{31}{subsection.4.10.5}
-\contentsline {subsection}{\numberline {4.10.6}Geographic Information Systems (GIS)}{31}{subsection.4.10.6}
-\contentsline {section}{\numberline {4.11}Implementation}{31}{section.4.11}
-\contentsline {section}{\numberline {4.12}Testing}{37}{section.4.12}
-\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{40}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusion}{40}{section.5.1}
-\contentsline {section}{\numberline {5.2}Technical and Managerial Lesson Learnt}{40}{section.5.2}
-\contentsline {section}{\numberline {5.3}Future Scope}{40}{section.5.3}
-\contentsline {chapter}{BIBLIOGRAPHY}{41}{Item.49}
+\contentsline {subsubsection}{\numberline {2.4.1.3}Behavioral Feasibility}{7}{subsubsection.2.4.1.3}
+\contentsline {section}{\numberline {2.5}Objectives of Project }{8}{section.2.5}
+\contentsline {chapter}{\numberline {3}PROJECT DESIGN}{10}{chapter.3}
+\contentsline {section}{\numberline {3.1}Product Perspective}{10}{section.3.1}
+\contentsline {section}{\numberline {3.2}Product Functions}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}User Characteristics}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The General User}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Designers}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Developers}{12}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Constraints}{12}{section.3.4}
+\contentsline {section}{\numberline {3.5}Flowchart}{12}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{13}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}DFD's}{13}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Database design}{13}{section.3.6}
+\contentsline {section}{\numberline {3.7}Table Structure}{17}{section.3.7}
+\contentsline {section}{\numberline {3.8}Assumptions and Dependencies}{17}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Dependency Graph}{18}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Class Diagrams}{18}{subsection.3.8.2}
+\contentsline {section}{\numberline {3.9}Entity Relationship(ER) Diagram}{20}{section.3.9}
+\contentsline {section}{\numberline {3.10}Specific Requirements}{20}{section.3.10}
+\contentsline {chapter}{\numberline {4}Development and Implementation}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to Languages}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}HTML}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}CSS}{25}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}CMake}{26}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Shell Scripting}{26}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}JSON}{27}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Ubuntu: An open source OS}{28}{section.4.2}
+\contentsline {section}{\numberline {4.3}Introduction To Doxygen}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Installation of Doxygen}{29}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Introduction to \LaTeX }{30}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Typesetting}{31}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Introduction to Github}{32}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}What is Git?}{33}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Installation of Git}{34}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Various Git Commands}{34}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.3.1}Create Repositories}{34}{subsubsection.4.5.3.1}
+\contentsline {subsubsection}{\numberline {4.5.3.2}Make Changes}{35}{subsubsection.4.5.3.2}
+\contentsline {subsubsection}{\numberline {4.5.3.3}Group Changes}{35}{subsubsection.4.5.3.3}
+\contentsline {subsubsection}{\numberline {4.5.3.4}Synchronize Changes}{35}{subsubsection.4.5.3.4}
+\contentsline {section}{\numberline {4.6}Introduction to Reveal-js \& Reveal-md}{36}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Installation of reveal-md}{36}{subsection.4.6.1}
+\contentsline {section}{\numberline {4.7}Working with Experimental Server}{36}{section.4.7}
+\contentsline {section}{\numberline {4.8}Python Django Framework}{38}{section.4.8}
+\contentsline {section}{\numberline {4.9}OSM and its Components }{38}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Benifits Of Own Tile Server}{38}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}Postgresql / postgis}{39}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Osm2pgsql}{39}{subsection.4.9.3}
+\contentsline {subsection}{\numberline {4.9.4}Openstreetmap-carto}{40}{subsection.4.9.4}
+\contentsline {subsection}{\numberline {4.9.5}OpenLayer.js}{40}{subsection.4.9.5}
+\contentsline {subsection}{\numberline {4.9.6}Geographic Information Systems (GIS)}{40}{subsection.4.9.6}
+\contentsline {section}{\numberline {4.10}Implementation}{40}{section.4.10}
+\contentsline {section}{\numberline {4.11}Testing}{47}{section.4.11}
+\contentsline {chapter}{\numberline {5}Conclusion and Future Scope}{50}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclusion}{50}{section.5.1}
+\contentsline {section}{\numberline {5.2}Future Scope}{50}{section.5.2}
+\contentsline {chapter}{BIBLIOGRAPHY}{50}{Item.89}
 \contentsfinish 
