@@ -45,13 +45,13 @@
 \contentsline {subsection}{\numberline {4.3.1}Installation of Doxygen}{30}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}Introduction to \LaTeX }{30}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Typesetting}{32}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Introduction to Github}{32}{section.4.5}
+\contentsline {section}{\numberline {4.5}Introduction to Github}{33}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}What is Git?}{34}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Installation of Git}{35}{subsection.4.5.2}
 \contentsline {subsection}{\numberline {4.5.3}Various Git Commands}{35}{subsection.4.5.3}
 \contentsline {subsubsection}{\numberline {4.5.3.1}Create Repositories}{35}{subsubsection.4.5.3.1}
 \contentsline {subsubsection}{\numberline {4.5.3.2}Make Changes}{35}{subsubsection.4.5.3.2}
-\contentsline {subsubsection}{\numberline {4.5.3.3}Group Changes}{36}{subsubsection.4.5.3.3}
+\contentsline {subsubsection}{\numberline {4.5.3.3}Group Changes}{35}{subsubsection.4.5.3.3}
 \contentsline {subsubsection}{\numberline {4.5.3.4}Synchronize Changes}{36}{subsubsection.4.5.3.4}
 \contentsline {section}{\numberline {4.6}Introduction to Reveal-js \& Reveal-md}{36}{section.4.6}
 \contentsline {subsection}{\numberline {4.6.1}Installation of reveal-md}{37}{subsection.4.6.1}
@@ -59,10 +59,10 @@
 \contentsline {section}{\numberline {4.8}Python Django Framework}{38}{section.4.8}
 \contentsline {section}{\numberline {4.9}OSM and its Components }{39}{section.4.9}
 \contentsline {subsection}{\numberline {4.9.1}Benifits Of Own Tile Server}{39}{subsection.4.9.1}
-\contentsline {subsection}{\numberline {4.9.2}Postgresql / postgis}{39}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.2}Postgresql / postgis}{40}{subsection.4.9.2}
 \contentsline {subsection}{\numberline {4.9.3}Osm2pgsql}{40}{subsection.4.9.3}
 \contentsline {subsection}{\numberline {4.9.4}Openstreetmap-carto}{40}{subsection.4.9.4}
-\contentsline {subsection}{\numberline {4.9.5}OpenLayer.js}{41}{subsection.4.9.5}
+\contentsline {subsection}{\numberline {4.9.5}OpenLayer.js}{40}{subsection.4.9.5}
 \contentsline {subsection}{\numberline {4.9.6}Geographic Information Systems (GIS)}{41}{subsection.4.9.6}
 \contentsline {section}{\numberline {4.10}Implementation}{41}{section.4.10}
 \contentsline {section}{\numberline {4.11}Testing}{47}{section.4.11}
