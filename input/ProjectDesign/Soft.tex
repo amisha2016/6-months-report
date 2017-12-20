@@ -1,35 +1,28 @@
-\section{Software Requirement Analysis}
+
+%\section{Other Specifications}
 
 A Software Requirements Analysis for a software system is a complete 
 description of the behavior of a system to be developed. It include functional Requirements
-and Software Requirements. In addition to these, the SRS also contains 
+and Software Requirements. In addition to these, the SRS contains 
 non-functional requirements. Non-functional requirements are 
 requirements which impose constraints on the design or implementation.
 \begin{itemize}
-\item{\bf Purpose}: Dynamic of structure is a web based software and the 
-main purpose of this project is to:
+\item{\bf Purpose}: OpenStreetMap (OSM) is an open collaborative project to  create a free editable map of the world and the main purpose of this project is to:
 \begin{enumerate}
-\item Perform most of difficult Calculation work.
-\item Make it work like batch mode. so, that user can give inputs 
-together and relax.
-\item Help M.Tech and Civil Engineer to analysis structure.
-\item Automatic calculation of modal force and modes.
+\item  To  create a free editable map of the world.
+\item To gather location data  using GPS, local knowledge, and other free sources of information and upload it.
+\item  To encourage the growth, development and distribution of free geospatial data. 
+\item  To provide geospatial data for anyone to use and share.
 \item Reduce the time for analysis.
-\item Provide on-line way to analysis so that individual does not have to 
-install anything.
+\item The OpenStreetMap Foundation is an international not-for-profit organization supporting, but not controlling, the OpenStreetMap Project.
 \end{enumerate}
 
 \item{\bf Users of the System}
 \begin{enumerate} 
-\item Client : Clients are the end users that benefit from this software.
-They just provide input and gets output in form of PDF.Client of this 
-WEB Application can be of two types -:
+\item Client : Clients are the end users that benefit from this project.
+They just provide input(like entering name of the area) and gets output(in the form of map).
 \begin{enumerate}
-\item Civil Engineer -: They have knowledge of working of procedure
-and what input is being provided.
-\item Layman -: They don't know anything about what's going on, their just 
-work is to give input to system.   
- 
+\item Researcher or student-: They have knowledge of working of procedures and can edt the map according to their needs.  
 \end{enumerate}
 \end{enumerate}
 \end{itemize}
@@ -40,47 +33,37 @@ work is to give input to system.
 for the system. After understanding the system we need the input data 
 to the system then we watch the output and determine whether the output 
 from the system is according to our requirements or not. So what we have 
-to input and then what we’ll get as output is given in this phase. This 
+to input and then what we'll get as output is given in this phase. This 
 phase also describe the software and non-function requirements of the 
 system.
 \item {\bf Input Requirements of the System}
 \begin{enumerate} 
-\item Type of soil
-\item Number of storeys
-\item Importance Factor
-\item Response Reduction Factor
-\item Zone Factor
-\item Input method (CSV or manual)
-\item Output method (Email or direct PDF)
-\item Mass of each storey
-\item Height of each storey
-\item Stiffness of each storey
-\item Input in form of csv file
+\item Guess points and name of the places.
+\item Precision
+\item Required point at which value is to be found
+\item Knowledge of latitude and longitude.
 \end{enumerate}
 \vskip 0.5cm
 \item {\bf Output Requirements of the System}
 \begin{enumerate} 
-\item Calculation of modal force and modes.
-\item Generation of output in form of PDF.
-\item Mailing output PDF 
+\item Final output of the location of the particulaar area.
+\item Shops, restaurants and many more are represented through icon and images.
 \end{enumerate}
 \vskip 0.5cm
 \item {\bf Special User Requirements}
 \begin{enumerate} 
-\item Automatic Email Generation of Output and Sending to the concerned person.
-\item Taking bulk input values in form of CSV file
+\item Taking bulk input values through html forms.
 \end{enumerate}
 \vskip 0.5cm
 \item {\bf Software Requirements}
 \begin{enumerate} 
-\item Programming language: Python 2.7
-\item software: SAGEMATH, \LaTeX{}
-\item Framework: Django 1.7, Bootstrap
-\item Web Languages: Html, Java Script, CSS
-\item Database: Sqlite 
+\item Programming language: C++, Python
+\item software: \LaTeX{}
+\item Web Languages: php, javascript, html
+\item Database: Postgresql 
 \item Documentation: Doxygen 1.8.3
 \item Text Editor: Vim
-\item Operating System: Ubuntu 12.04 or up
+\item Operating System: Ubuntu 14.04 or 15.10
 \item Revision System: Git
 
 \end{enumerate}
@@ -94,3 +77,5 @@ For e.g., handling around thousand users at the same time.
  i.e. we can say maximum 24 hrs.
 \end{enumerate}
 \end{itemize}
+
+

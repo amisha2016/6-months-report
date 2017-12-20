@@ -25,7 +25,7 @@
 \contentsline {subsection}{\numberline {3.5.1}Detailed Description}{13}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}DFD's}{13}{subsection.3.5.2}
 \contentsline {section}{\numberline {3.6}Database design}{13}{section.3.6}
-\contentsline {section}{\numberline {3.7}Table Structure}{17}{section.3.7}
+\contentsline {section}{\numberline {3.7}Table Structure}{16}{section.3.7}
 \contentsline {section}{\numberline {3.8}Assumptions and Dependencies}{17}{section.3.8}
 \contentsline {subsection}{\numberline {3.8.1}Dependency Graph}{18}{subsection.3.8.1}
 \contentsline {subsection}{\numberline {3.8.2}Class Diagrams}{18}{subsection.3.8.2}
