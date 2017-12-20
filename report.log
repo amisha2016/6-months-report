@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.14)  20 DEC 2017 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.12.14)  21 DEC 2017 00:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -475,7 +475,7 @@ LaTeX Info: Redefining \nameref on input line 40.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./input/titlepage.tex) <input/images/gne.jpg, id=293, 160.6pt x 167.62625pt>
+(./input/titlepage.tex) <input/images/gne.jpg, id=257, 160.6pt x 167.62625pt>
 File: input/images/gne.jpg Graphic file (type jpg)
 
 <use input/images/gne.jpg>
@@ -580,8 +580,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 1.
-(./input/company.tex
-<input/images/gndec.jpg, id=519, 556.0775pt x 470.75874pt>
+(./input/company_intro/company.tex
+<input/images/gndec.jpg, id=458, 556.0775pt x 470.75874pt>
 File: input/images/gndec.jpg Graphic file (type jpg)
 
 <use input/images/gndec.jpg>
@@ -635,8 +635,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 Chapter 2.
-(./input/feasibitystudy.tex
-<input/images/osm_building.png, id=530, 1302.8675pt x 665.48625pt>
+(./input/proj_intro/feasibitystudy.tex
+<input/images/osm_building.png, id=468, 1302.8675pt x 665.48625pt>
 File: input/images/osm_building.png Graphic file (type png)
 
 <use input/images/osm_building.png>
@@ -763,7 +763,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [11]) (./input/ProjectDesign/constraints.tex)
 (./input/ProjectDesign/flowchart_dfd.tex
-<input/images/osmserv.png, id=624, 888.01762pt x 158.994pt>
+<input/images/osmserv.png, id=562, 888.01762pt x 158.994pt>
 File: input/images/osmserv.png Graphic file (type png)
 
 <use input/images/osmserv.png>
@@ -776,7 +776,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12] <input/images/fetch.jpg, id=639, 283.0575pt x 408.77719pt>
+[12] <input/images/fetch.jpg, id=577, 283.0575pt x 408.77719pt>
 File: input/images/fetch.jpg Graphic file (type jpg)
 
 <use input/images/fetch.jpg>
@@ -786,26 +786,30 @@ Package pdftex.def Info: input/images/fetch.jpg used on input line 27.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/DFD_0.png, id=640, 473.77pt x 348.30125pt>
+<input/images/DFD_0.png, id=578, 473.77pt x 348.30125pt>
 File: input/images/DFD_0.png Graphic file (type png)
 
 <use input/images/DFD_0.png>
 Package pdftex.def Info: input/images/DFD_0.png used on input line 41.
 (pdftex.def)             Requested size: 284.26419pt x 208.98236pt.
 
-<input/images/DFD_1.png, id=641, 720.6925pt x 340.27126pt>
+<input/images/DFD_1.png, id=579, 720.6925pt x 340.27126pt>
 File: input/images/DFD_1.png Graphic file (type png)
 
 <use input/images/DFD_1.png>
 Package pdftex.def Info: input/images/DFD_1.png used on input line 46.
 (pdftex.def)             Requested size: 432.41884pt x 204.16432pt.
 
-<input/images/DFD_2.png, id=642, 875.27pt x 307.1475pt>
+<input/images/DFD_2.png, id=580, 875.27pt x 307.1475pt>
 File: input/images/DFD_2.png Graphic file (type png)
 
 <use input/images/DFD_2.png>
 Package pdftex.def Info: input/images/DFD_2.png used on input line 51.
-(pdftex.def)             Requested size: 437.63393pt x 153.57336pt.
+(pdftex.def)             Requested size: 525.16606pt x 184.28992pt.
+
+Overfull \hbox (41.4692pt too wide) in paragraph at lines 51--52
+ [][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -905,23 +909,6 @@ Overfull \hbox (12.86803pt too wide) in paragraph at lines 6--33
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<input/images/osm_db.png, id=657, 574.145pt x 477.785pt>
-File: input/images/osm_db.png Graphic file (type png)
-
-<use input/images/osm_db.png>
-Package pdftex.def Info: input/images/osm_db.png used on input line 37.
-(pdftex.def)             Requested size: 459.31662pt x 382.22852pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./input/ProjectDesign/graphs.tex
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -932,16 +919,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 	\item P
-            rocessor Speed: 512KHz or morepdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.3.5}) has been already used, duplicate igno
-red
+l.33 \end{table}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.3.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 	\item P
-            rocessor Speed: 512KHz or more <./input/images/DFD_1.png> <./input/
-images/DFD_2.png>]
+l.33 \end{table}
+                 <./input/images/DFD_1.png> <./input/images/DFD_2.png>]
+<input/images/osm_db.png, id=602, 574.145pt x 477.785pt>
+File: input/images/osm_db.png Graphic file (type png)
+
+<use input/images/osm_db.png>
+Package pdftex.def Info: input/images/osm_db.png used on input line 37.
+(pdftex.def)             Requested size: 459.31662pt x 382.22852pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./input/ProjectDesign/graphs.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -955,27 +951,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.4 	\item P
             rocessor Speed: 512KHz or morepdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.3.6}) has been already used, duplicate igno
-red
+th the same identifier (name{table.3.2}) has been already used, duplicate ignor
+ed
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.4 	\item P
-            rocessor Speed: 512KHz or more <./input/images/osm_db.png>]
+            rocessor Speed: 512KHz or more]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}
-) has been already used, duplicate ignored
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.16 \begin{enumerate}
-                      ]
-<input/images/dep_osmium_index.png, id=677, 480.79625pt x 350.30875pt>
+                       <./input/images/osm_db.png>]
+<input/images/dep_osmium_index.png, id=616, 480.79625pt x 350.30875pt>
 File: input/images/dep_osmium_index.png Graphic file (type png)
 
 <use input/images/dep_osmium_index.png>
@@ -983,7 +979,7 @@ Package pdftex.def Info: input/images/dep_osmium_index.png used on input line 2
 5.
 (pdftex.def)             Requested size: 384.63751pt x 280.24738pt.
 
-<input/images/dep_expire_tiles.png, id=678, 786.94pt x 137.51375pt>
+<input/images/dep_expire_tiles.png, id=617, 786.94pt x 137.51375pt>
 File: input/images/dep_expire_tiles.png Graphic file (type png)
 
 <use input/images/dep_expire_tiles.png>
@@ -991,14 +987,14 @@ Package pdftex.def Info: input/images/dep_expire_tiles.png used on input line 3
 2.
 (pdftex.def)             Requested size: 483.69687pt x 84.52324pt.
 
-<input/images/dep_road.png, id=679, 452.69125pt x 117.43875pt>
+<input/images/dep_road.png, id=618, 452.69125pt x 117.43875pt>
 File: input/images/dep_road.png Graphic file (type png)
 
 <use input/images/dep_road.png>
 Package pdftex.def Info: input/images/dep_road.png used on input line 38.
 (pdftex.def)             Requested size: 362.15349pt x 93.95111pt.
 
-<input/images/dep_tagtransform.png, id=681, 741.77126pt x 302.12875pt>
+<input/images/dep_tagtransform.png, id=620, 741.77126pt x 302.12875pt>
 File: input/images/dep_tagtransform.png Graphic file (type png)
 
 <use input/images/dep_tagtransform.png>
@@ -1045,14 +1041,14 @@ l.58
 l.58 
       <./input/images/dep_expire_tiles.png> <./input/images/dep_road.png> <./in
 put/images/dep_tagtransform.png>]
-<input/images/class_road.png, id=700, 254.9525pt x 143.53625pt>
+<input/images/class_road.png, id=639, 254.9525pt x 143.53625pt>
 File: input/images/class_road.png Graphic file (type png)
 
 <use input/images/class_road.png>
 Package pdftex.def Info: input/images/class_road.png used on input line 66.
 (pdftex.def)             Requested size: 216.71063pt x 122.00638pt.
 
-<input/images/class_tagtransform.png, id=701, 356.33125pt x 1319.93124pt>
+<input/images/class_tagtransform.png, id=640, 356.33125pt x 1319.93124pt>
 File: input/images/class_tagtransform.png Graphic file (type png)
 
 <use input/images/class_tagtransform.png>
@@ -1060,14 +1056,14 @@ Package pdftex.def Info: input/images/class_tagtransform.png used on input line
  73.
 (pdftex.def)             Requested size: 178.16518pt x 659.964pt.
 
-<input/images/class_osmdata.png, id=702, 141.52875pt x 294.09875pt>
+<input/images/class_osmdata.png, id=641, 141.52875pt x 294.09875pt>
 File: input/images/class_osmdata.png Graphic file (type png)
 
 <use input/images/class_osmdata.png>
 Package pdftex.def Info: input/images/class_osmdata.png used on input line 80.
 (pdftex.def)             Requested size: 120.29999pt x 249.9851pt.
 
-<input/images/class_reprojection.png, id=703, 152.57pt x 317.185pt>
+<input/images/class_reprojection.png, id=642, 152.57pt x 317.185pt>
 File: input/images/class_reprojection.png Graphic file (type png)
 
 <use input/images/class_reprojection.png>
@@ -1076,7 +1072,7 @@ Package pdftex.def Info: input/images/class_reprojection.png used on input line
 (pdftex.def)             Requested size: 129.6851pt x 269.6085pt.
 )
 (./input/ProjectDesign/er_diagram.tex
-<input/images/osm_er.png, id=704, 803.0pt x 557.08125pt>
+<input/images/osm_er.png, id=643, 803.0pt x 557.08125pt>
 File: input/images/osm_er.png Graphic file (type png)
 
 <use input/images/osm_er.png>
@@ -1178,15 +1174,16 @@ l.99 \chapter
              {Development and Implementation} <./input/images/class_reprojectio
 n.png> <./input/images/osm_er.png>]
 Chapter 4.
-(./input/dev/languages.tex
-<input/images/HTML.png, id=730, 2007.5pt x 2007.5pt>
+(./input/development/techno-used.tex
+(./input/development/technologies/languages/languages.tex
+<input/images/HTML.png, id=668, 2007.5pt x 2007.5pt>
 File: input/images/HTML.png Graphic file (type png)
 
 <use input/images/HTML.png>
 Package pdftex.def Info: input/images/HTML.png used on input line 6.
 (pdftex.def)             Requested size: 145.11053pt x 145.10352pt.
 
-<input/images/CSS.jpg, id=731, 281.05pt x 250.9375pt>
+<input/images/CSS.jpg, id=669, 281.05pt x 250.9375pt>
 File: input/images/CSS.jpg Graphic file (type jpg)
 
 <use input/images/CSS.jpg>
@@ -1201,7 +1198,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.36 \end{figure}
                   <./input/images/HTML.png>]
-<input/images/JS.png, id=738, 451.6875pt x 451.6875pt>
+<input/images/JS.png, id=677, 451.6875pt x 451.6875pt>
 File: input/images/JS.png Graphic file (type png)
 
 <use input/images/JS.png>
@@ -1222,7 +1219,7 @@ Missing character: There is no Œ in font cmr12!
 Missing character: There is no É in font cmr12!
 Missing character: There is no ª in font cmr12!
 
-<input/images/bootstrap.png, id=739, 225.84375pt x 225.84375pt>
+<input/images/bootstrap.png, id=678, 225.84375pt x 225.84375pt>
 File: input/images/bootstrap.png Graphic file (type png)
 
 <use input/images/bootstrap.png>
@@ -1242,14 +1239,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.71 
       <./input/images/CSS.jpg>]
-<input/images/cgs/hello.png, id=744, 451.6875pt x 253.94875pt>
+<input/images/cgs/hello.png, id=684, 451.6875pt x 253.94875pt>
 File: input/images/cgs/hello.png Graphic file (type png)
 
 <use input/images/cgs/hello.png>
 Package pdftex.def Info: input/images/cgs/hello.png used on input line 120.
 (pdftex.def)             Requested size: 290.22107pt x 163.17763pt.
 
-<input/images/cgs/cm.png, id=745, 451.6875pt x 253.94875pt>
+<input/images/cgs/cm.png, id=685, 451.6875pt x 253.94875pt>
 File: input/images/cgs/cm.png Graphic file (type png)
 
 <use input/images/cgs/cm.png>
@@ -1277,7 +1274,7 @@ has been already used, duplicate ignored
 l.135 \item S
              hell script can take input from user or file and output them on...
  <./input/images/JS.png> <./input/images/bootstrap.png>]
-<input/images/python.png, id=752, 388.45125pt x 130.4875pt>
+<input/images/python.png, id=694, 388.45125pt x 130.4875pt>
 File: input/images/python.png Graphic file (type png)
 
 <use input/images/python.png>
@@ -1306,9 +1303,9 @@ l.157
                                                   \fi \fi 
 l.157 
        <./input/images/cgs/hello.png (PNG copy)> <./input/images/cgs/cm.png (PN
-G copy)>]) (./input/dev/json.tex) (./input/techno-used.tex
-(./input/tech/ubuntu.tex
-<input/images/ubu.png, id=762, 268.00125pt x 189.70876pt>
+G copy)>]) (./input/development/technologies/languages/json.tex)
+(./input/development/technologies/ubuntu.tex
+<input/images/ubu.png, id=704, 268.00125pt x 189.70876pt>
 File: input/images/ubu.png Graphic file (type png)
 
 <use input/images/ubu.png>
@@ -1336,8 +1333,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) (./input/tech/doxygen.tex
-<input/images/doxygen.jpeg, id=768, 404.51125pt x 125.46875pt>
+) (./input/development/technologies/doxygen.tex
+<input/images/doxygen.jpeg, id=713, 404.51125pt x 125.46875pt>
 File: input/images/doxygen.jpeg Graphic file (type jpg)
 
 <use input/images/doxygen.jpeg>
@@ -1373,14 +1370,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-<input/images/osm_doxygen.png, id=775, 1054.94125pt x 388.45125pt>
+<input/images/osm_doxygen.png, id=720, 1054.94125pt x 388.45125pt>
 File: input/images/osm_doxygen.png Graphic file (type png)
 
 <use input/images/osm_doxygen.png>
 Package pdftex.def Info: input/images/osm_doxygen.png used on input line 52.
 (pdftex.def)             Requested size: 421.96902pt x 155.37773pt.
 
-<input/images/osm_doxygen1.png, id=776, 513.92pt x 584.1825pt>
+<input/images/osm_doxygen1.png, id=721, 513.92pt x 584.1825pt>
 File: input/images/osm_doxygen1.png Graphic file (type png)
 
 <use input/images/osm_doxygen1.png>
@@ -1390,8 +1387,8 @@ Package pdftex.def Info: input/images/osm_doxygen1.png used on input line 57.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./input/tech/latex.tex
-<input/images/donald.png, id=777, 170.88844pt x 237.13594pt>
+) (./input/development/technologies/latex.tex
+<input/images/donald.png, id=722, 170.88844pt x 237.13594pt>
 File: input/images/donald.png Graphic file (type png)
 
 <use input/images/donald.png>
@@ -1430,14 +1427,14 @@ l.24
                                                   \fi \fi 
 l.24 
       <./input/images/osm_doxygen1.png> <./input/images/donald.png>]
-<input/images/la.png, id=786, 1371.1225pt x 770.88pt>
+<input/images/la.png, id=731, 1371.1225pt x 770.88pt>
 File: input/images/la.png Graphic file (type png)
 
 <use input/images/la.png>
 Package pdftex.def Info: input/images/la.png used on input line 64.
 (pdftex.def)             Requested size: 338.58632pt x 190.35522pt.
-) (./input/tech/git.tex
-<input/images/github.jpg, id=787, 401.5pt x 301.125pt>
+) (./input/development/technologies/git.tex
+<input/images/github.jpg, id=732, 401.5pt x 301.125pt>
 File: input/images/github.jpg Graphic file (type jpg)
 
 <use input/images/github.jpg>
@@ -1503,7 +1500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--49
 
  []
 
-<input/images/git.jpg, id=796, 219.95218pt x 219.95218pt>
+<input/images/git.jpg, id=741, 219.95218pt x 219.95218pt>
 File: input/images/git.jpg Graphic file (type jpg)
 
 <use input/images/git.jpg>
@@ -1583,8 +1580,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--126
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-) (./input/tech/reveal.tex
-<input/images/reveal.png, id=808, 269.005pt x 112.42pt>
+) (./input/development/technologies/reveal.tex
+<input/images/reveal.png, id=758, 269.005pt x 112.42pt>
 File: input/images/reveal.png Graphic file (type png)
 
 <use input/images/reveal.png>
@@ -1627,8 +1624,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.23 
-      <./input/images/reveal.png>]) (./input/tech/exp.tex
-<input/images/ser.png, id=814, 451.6875pt x 451.6875pt>
+      <./input/images/reveal.png>])
+(./input/development/technologies/experimental.tex
+<input/images/ser.png, id=765, 451.6875pt x 451.6875pt>
 File: input/images/ser.png Graphic file (type png)
 
 <use input/images/ser.png>
@@ -1664,14 +1662,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--24
 
  []
 
-) (./input/tech/django.tex
-<input/images/django.png, id=820, 784.9325pt x 423.5825pt>
+) (./input/development/technologies/django.tex
+<input/images/django.png, id=772, 784.9325pt x 423.5825pt>
 File: input/images/django.png Graphic file (type png)
 
 <use input/images/django.png>
 Package pdftex.def Info: input/images/django.png used on input line 5.
 (pdftex.def)             Requested size: 145.11053pt x 78.30336pt.
-) (./input/tech/osm1.tex
+) (./input/development/technologies/osm1.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--1
 
  []
@@ -1681,7 +1679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--1
 
  []
 
-<input/images/index.jpeg, id=821, 225.84375pt x 225.84375pt>
+<input/images/index.jpeg, id=773, 225.84375pt x 225.84375pt>
 File: input/images/index.jpeg Graphic file (type jpg)
 
 <use input/images/index.jpeg>
@@ -1701,7 +1699,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
                                                   \fi \fi 
 l.8 
      <./input/images/django.png>]
-<input/images/index.png, id=827, 238.8925pt x 211.79124pt>
+<input/images/index.png, id=778, 238.8925pt x 211.79124pt>
 File: input/images/index.png Graphic file (type png)
 
 <use input/images/index.png>
@@ -1738,7 +1736,7 @@ Missing character: There is no ˜ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- <input/images/bright.jpeg, id=833, 380.42125pt x 133.49875pt>
+ <input/images/bright.jpeg, id=785, 380.42125pt x 133.49875pt>
 File: input/images/bright.jpeg Graphic file (type jpg)
 
 <use input/images/bright.jpeg>
@@ -1771,19 +1769,19 @@ peg>]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-)) (./input/tech/impl.tex
+)) (./input/development/implementation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 45--1
 
  []
 
-<input/images/osm7.png, id=838, 657.45625pt x 370.38374pt>
+<input/images/osm7.png, id=794, 657.45625pt x 370.38374pt>
 File: input/images/osm7.png Graphic file (type png)
 
 <use input/images/osm7.png>
 Package pdftex.def Info: input/images/osm7.png used on input line 9.
 (pdftex.def)             Requested size: 338.58632pt x 190.74692pt.
 
-<input/images/osm5.png, id=839, 1306.8825pt x 743.77875pt>
+<input/images/osm5.png, id=795, 1306.8825pt x 743.77875pt>
 File: input/images/osm5.png Graphic file (type png)
 
 <use input/images/osm5.png>
@@ -1793,7 +1791,7 @@ Package pdftex.def Info: input/images/osm5.png used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_boundary.png, id=840, 965.6075pt x 673.51625pt>
+<input/images/osm_boundary.png, id=796, 965.6075pt x 673.51625pt>
 File: input/images/osm_boundary.png Graphic file (type png)
 
 <use input/images/osm_boundary.png>
@@ -1803,7 +1801,7 @@ Package pdftex.def Info: input/images/osm_boundary.png used on input line 24.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_icon.png, id=841, 778.91pt x 403.5075pt>
+<input/images/osm_icon.png, id=797, 778.91pt x 403.5075pt>
 File: input/images/osm_icon.png Graphic file (type png)
 
 <use input/images/osm_icon.png>
@@ -1813,7 +1811,7 @@ Package pdftex.def Info: input/images/osm_icon.png used on input line 30.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_language.png, id=842, 751.80875pt x 507.8975pt>
+<input/images/osm_language.png, id=798, 751.80875pt x 507.8975pt>
 File: input/images/osm_language.png Graphic file (type png)
 
 <use input/images/osm_language.png>
@@ -1836,7 +1834,7 @@ l.39
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_level_4.png, id=848, 1290.8225pt x 628.3475pt>
+<input/images/osm_level_4.png, id=806, 1290.8225pt x 628.3475pt>
 File: input/images/osm_level_4.png Graphic file (type png)
 
 <use input/images/osm_level_4.png>
@@ -1846,7 +1844,7 @@ Package pdftex.def Info: input/images/osm_level_4.png used on input line 42.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_level8.png, id=849, 1295.84125pt x 615.29875pt>
+<input/images/osm_level8.png, id=807, 1295.84125pt x 615.29875pt>
 File: input/images/osm_level8.png Graphic file (type png)
 
 <use input/images/osm_level8.png>
@@ -1856,7 +1854,7 @@ Package pdftex.def Info: input/images/osm_level8.png used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm2.png, id=850, 1304.875pt x 533.995pt>
+<input/images/osm2.png, id=808, 1304.875pt x 533.995pt>
 File: input/images/osm2.png Graphic file (type png)
 
 <use input/images/osm2.png>
@@ -1893,7 +1891,7 @@ l.65
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm3.png, id=855, 1301.86375pt x 386.44376pt>
+<input/images/osm3.png, id=813, 1301.86375pt x 386.44376pt>
 File: input/images/osm3.png Graphic file (type png)
 
 <use input/images/osm3.png>
@@ -1903,7 +1901,7 @@ Package pdftex.def Info: input/images/osm3.png used on input line 67.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_script.png, id=856, 934.49126pt x 514.92375pt>
+<input/images/osm_script.png, id=814, 934.49126pt x 514.92375pt>
 File: input/images/osm_script.png Graphic file (type png)
 
 <use input/images/osm_script.png>
@@ -1966,7 +1964,7 @@ Package pdftex.def Info: input/images/osm_building.png used on input line 86.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_search.png, id=865, 1282.7925pt x 412.54124pt>
+<input/images/osm_search.png, id=825, 1282.7925pt x 412.54124pt>
 File: input/images/osm_search.png Graphic file (type png)
 
 <use input/images/osm_search.png>
@@ -1976,7 +1974,7 @@ Package pdftex.def Info: input/images/osm_search.png used on input line 93.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_animations.png, id=866, 1281.78876pt x 655.44875pt>
+<input/images/osm_animations.png, id=826, 1281.78876pt x 655.44875pt>
 File: input/images/osm_animations.png Graphic file (type png)
 
 <use input/images/osm_animations.png>
@@ -1987,7 +1985,7 @@ Package pdftex.def Info: input/images/osm_animations.png used on input line 98.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<input/images/osm_remote.png, id=867, 1284.8pt x 564.1075pt>
+<input/images/osm_remote.png, id=827, 1284.8pt x 564.1075pt>
 File: input/images/osm_remote.png Graphic file (type png)
 
 <use input/images/osm_remote.png>
@@ -2047,7 +2045,7 @@ l.113 \end{itemize}
                                                   \fi \fi 
 l.113 \end{itemize}
                     <./input/images/osm_search.png> <./input/images/osm_animati
-ons.png>]) (./input/tech/test.tex
+ons.png>]) (./input/development/testing.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []\OT1/cmr/m/n/12 Test
  []
@@ -2703,9 +2701,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
-Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 87583EC0B5110EC33EA073D66FA0085F;4881.
 
+
+Package rerunfilecheck Warning: File `report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report.out':
+(rerunfilecheck)             Before: 64FF7182DF4CFACCA4EDDF1000462175;4304
+(rerunfilecheck)             After:  87583EC0B5110EC33EA073D66FA0085F;4881.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2716,26 +2720,65 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
 ### simple group (level 1) entered at line 6 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8980 strings out of 493029
- 130412 string characters out of 6136233
- 316696 words of memory out of 5000000
- 11985 multiletter control sequences out of 15000+600000
+ 8989 strings out of 493029
+ 131211 string characters out of 6136233
+ 314692 words of memory out of 5000000
+ 11976 multiletter control sequences out of 15000+600000
  14132 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,1149b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (59 pages, 3602917 bytes).
+ 36i,11n,43p,1160b,520s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.4.7.6} has been referenc
+ed but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.7.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.7.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.7.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.4.3.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.4.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.4.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.4.4.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb>
+Output written on report.pdf (59 pages, 3600925 bytes).
 PDF statistics:
- 996 PDF objects out of 1000 (max. 8388607)
- 852 compressed objects within 9 object streams
- 277 named destinations out of 1000 (max. 500000)
- 837 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 968 PDF objects out of 1000 (max. 8388607)
+ 824 compressed objects within 9 object streams
+ 290 named destinations out of 1000 (max. 500000)
+ 765 words of extra memory for PDF output out of 10000 (max. 10000000)
 
