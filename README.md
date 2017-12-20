@@ -1,9 +1,13 @@
-# This is 6-months-report
+It's six months Industrial Training Report in Latex under the guidance of Dr. H. S. Rai(Dean and Head of TCC)
+
 For Overview go to report.pdf file
 
-Pre-requirements
+Topic: "Democratic Maps: Customized for GNDEC"
+
+**Pre-requirements**
 
 Install texlive-full package
 
-For Linux
+**For Linux**
+
 sudo apt install texlive-full
