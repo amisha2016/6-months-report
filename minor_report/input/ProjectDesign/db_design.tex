@@ -1,0 +1,16 @@
+\section{Database design}
+   
+The database contains tables for each Element type (nodes, ways, relations). In fact for each of these there are several database tables: current, history, current\_tags, history\_tags. In addition there are database tables for storing changeset, gpx\_files, users, diary entries, sessions, oauth etc.
+Democratic maps uses different database schemas for different applications.
+\begin{enumerate}
+	\item \textbf{Updatable:} This can be extremely important for keeping world-wide databases up-to-date, as it allows the database to be kept up-to-date without requiring a complete (and space- and time-consuming) full, worldwide re-import. However, if you only need a small extract, then re-importing that extract may be a quicker and easier method to keep up-to-date than using the OsmChange diffs.
+   
+	\item \textbf{Geometries:} Some database schemas provide native (e.g: PostGIS) geometries, which allows their use in other pieces of software which can read those geometry formats. Other database schemas may provide enough data to produce the geometries (e.g: nodes, ways, relations and their linkage) but not in a native format. Some can provide both. If you want to use the database with other bits of software such as a GIS editor then you probably want a schema with these geometries pre-built.
+   
+    \item \textbf{Lossless:} Some schemas will retain the full set of OSM data, including versioning, user IDs, changeset information and all tags. This information is important for editors, and may be of importance to someone doing analysis.
+  
+    \item \textbf{hstore columns:} hstore is perhaps the most straightforward approach to represent OSM's freeform tagging in PostgreSQL. However, not all tools use it and other databases might not have (or need) an equivalent.
+   
+\end{enumerate} 
+
+

@@ -1,0 +1,96 @@
+\section{Software Requirement Analysis}
+
+A Software Requirements Analysis for a software system is a complete 
+description of the behavior of a system to be developed. It include functional Requirements
+and Software Requirements. In addition to these, the SRS also contains 
+non-functional requirements. Non-functional requirements are 
+requirements which impose constraints on the design or implementation.
+\begin{itemize}
+\item{\bf Purpose}: Dynamic of structure is a web based software and the 
+main purpose of this project is to:
+\begin{enumerate}
+\item Perform most of difficult Calculation work.
+\item Make it work like batch mode. so, that user can give inputs 
+together and relax.
+\item Help M.Tech and Civil Engineer to analysis structure.
+\item Automatic calculation of modal force and modes.
+\item Reduce the time for analysis.
+\item Provide on-line way to analysis so that individual does not have to 
+install anything.
+\end{enumerate}
+
+\item{\bf Users of the System}
+\begin{enumerate} 
+\item Client : Clients are the end users that benefit from this software.
+They just provide input and gets output in form of PDF.Client of this 
+WEB Application can be of two types -:
+\begin{enumerate}
+\item Civil Engineer -: They have knowledge of working of procedure
+and what input is being provided.
+\item Layman -: They don't know anything about what's going on, their just 
+work is to give input to system.   
+ 
+\end{enumerate}
+\end{enumerate}
+\end{itemize}
+
+\subsection{Functional Requirements}
+\begin{itemize}
+\item {\bf Specific Requirements}: This phase covers the whole requirements 
+for the system. After understanding the system we need the input data 
+to the system then we watch the output and determine whether the output 
+from the system is according to our requirements or not. So what we have 
+to input and then what we’ll get as output is given in this phase. This 
+phase also describe the software and non-function requirements of the 
+system.
+\item {\bf Input Requirements of the System}
+\begin{enumerate} 
+\item Type of soil
+\item Number of storeys
+\item Importance Factor
+\item Response Reduction Factor
+\item Zone Factor
+\item Input method (CSV or manual)
+\item Output method (Email or direct PDF)
+\item Mass of each storey
+\item Height of each storey
+\item Stiffness of each storey
+\item Input in form of csv file
+\end{enumerate}
+\vskip 0.5cm
+\item {\bf Output Requirements of the System}
+\begin{enumerate} 
+\item Calculation of modal force and modes.
+\item Generation of output in form of PDF.
+\item Mailing output PDF 
+\end{enumerate}
+\vskip 0.5cm
+\item {\bf Special User Requirements}
+\begin{enumerate} 
+\item Automatic Email Generation of Output and Sending to the concerned person.
+\item Taking bulk input values in form of CSV file
+\end{enumerate}
+\vskip 0.5cm
+\item {\bf Software Requirements}
+\begin{enumerate} 
+\item Programming language: Python 2.7
+\item software: SAGEMATH, \LaTeX{}
+\item Framework: Django 1.7, Bootstrap
+\item Web Languages: Html, Java Script, CSS
+\item Database: Sqlite 
+\item Documentation: Doxygen 1.8.3
+\item Text Editor: Vim
+\item Operating System: Ubuntu 12.04 or up
+\item Revision System: Git
+
+\end{enumerate}
+\vskip 0.5cm
+\subsection{Non functional requirements}
+\begin{enumerate} 
+\item Scalability: System should be able to handle a number of users. 
+For e.g., handling around thousand users at the same time.
+\item Usability: Simple user interfaces that a layman can understand.
+\item Speed: Processing input should be done in reasonable time
+ i.e. we can say maximum 24 hrs.
+\end{enumerate}
+\end{itemize}
