@@ -1,0 +1,17 @@
+\begin{center}
+{\Huge \bf{Abstract}\vskip 0.2in}
+\end{center}
+
+This project mainly discuss about OpenStreetMap. Geographical data (geo data) is not free in many parts of the world. Generally these places have given the task of mapping to various government agencies who in return get to make money by selling the data back to you and me.\\
+
+The main disadvantage of Google Maps is that data is copyrighted and owned by multiple organisations like the Ordnance Survey. Google/whoever just licenses it. If we were to use it, we'd have to pay for it. This leads to the increasing demand of OSM.\\
+
+You can use OSM by picking an area that you know well and use the OpenStreetMap viewer to see how well the map data corresponds to your own knowledge. As on Wikipedia, it's easy to edit, so you can help!.\\
+
+
+Also, this project is completely open source and the entire code is available
+to the user as and when required. There is Complete developer's
+Blog reference alongwith it that helps using it a lot easier. The data and software is owned by you, the contributors.\\
+
+There is an organisation called the OpenStreetMap Foundation which exists to protect, promote, and support the project, but does not own the data. 
+There are lots of ways to contribute to the OpenStreetMap project.\\ 

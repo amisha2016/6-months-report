@@ -1,0 +1,9 @@
+
+\input {input/tech/ubuntu.tex}
+\input {input/tech/doxygen.tex}
+
+\input {input/tech/latex.tex}
+\input {input/tech/git.tex}
+\input{input/tech/osm.tex}
+
+

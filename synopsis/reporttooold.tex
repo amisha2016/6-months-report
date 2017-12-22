@@ -1,0 +1,112 @@
+\documentclass[12pt]{report}
+\usepackage[print,nopanel]{pdfscreen}
+%\begin{print}
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\usepackage{titletoc}% http://ctan.org/pkg/titletoc
+%\section{type}
+\usepackage{lastpage}
+\usepackage{macro/macro}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage{verbatim}
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Glenn]{fncychap}
+
+\lhead{\large\bfseries}
+\usepackage[left=2.5cm, right=1.5cm, top=2.5cm, bottom=1.5cm]{geometry}
+\pagestyle{fancy}
+%\end{print}
+\margins{.5cm}{.5cm}{.5cm}{.5cm}
+\begin{screen}
+
+\renewcommand{\encodingdefault}{T1}
+\usepackage{setspace}
+\linespread{1.5}
+\renewcommand{\rmdefault}{ptm}
+\end{screen}
+\screensize{8cm}{9cm}
+\overlay{overlay8.pdf}
+\usepackage{graphicx}
+
+\begin{document}
+\input{input/titlepage.tex}
+\begin{screen}
+\ppttitle
+\end{screen}
+\footskip 0.7cm
+\thispagestyle{empty} 
+\pagetitle
+\newpage
+\pagenumbering{Roman}
+\cfoot{\thepage}
+
+\input{input/acknowledgement.tex}
+\newpage
+
+\input{input/abstract.tex}
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+
+\pagenumbering{arabic}
+\cfoot{\thepage}
+
+%\chapter{\LaTeX}
+%\input{input/latex.tex}
+%\chapter{Requirements and Analysis}
+%\input{input/req-n-ana.tex}
+%Github\\
+%IRC\\
+%\LaTeX\\
+%Lua\\
+
+%\input{input/techno-used.tex}
+%\chapter{Design}
+%\input{input/design.tex}
+%\chapter{Implementation}
+%\input{input/implement.tex}
+%\newgeometry{textwidth=16cm,textheight=26cm,voffset=-2cm,bottom=0cm}
+\newpage
+%\newgeometry{textwidth=16cm,textheight=26cm,voffset=-2cm}
+\newgeometry{voffset=-1cm}
+\chapter{Introduction To Organisation}
+%\chapter{Introduction To Organisation}
+%\afterpage{\restoregeometry}
+%\markboth{}{}
+%\addcontentsline{chapter}
+% text
+%\restoregeometry
+
+\input{input/company.tex}
+%\afterpage{\restoregeometry}
+
+\restoregeometry
+\newpage
+\chapter{Introduction to Project}
+\input{input/feasibitystudy.tex}
+%\input{input/Soft.tex}
+%\input{input/design.tex}
+%\input{input/techno-used.tex}
+\chapter{Project Design}
+\input{input/softreq.tex}
+\input{input/Soft.tex}
+\input{input/design.tex}
+%\chapter{Experimental Results and Comparison}
+%\input{input/Conclusion/results.tex}
+\chapter{Development and Implementation}
+\input{input/dev/languages.tex}
+\input{input/techno-used.tex}
+\input{input/tech/impl.tex}
+\input{input/tech/test.tex}
+\chapter{Conclusion and Future Scope}
+\input{input/Conclusion/conclusion.tex}
+\input{input/legacy.tex}
+\input{input/Conclusion/future.tex}
+%\input{input/legacy.tex}
+\input{input/Conclusion/bibliography.tex}
+\end{document}
+
